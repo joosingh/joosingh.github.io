@@ -1,0 +1,867 @@
+
+<div class="pub-container">
+  <style>
+    .pub-container {
+        font-family: "Segoe UI", sans-serif;
+        max-width: 900px;
+        margin: auto;
+        padding: 1rem;
+    }
+    .year-block summary {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 1rem 0;
+        cursor: pointer;
+    }
+    .pub-entry {
+        margin-bottom: 1rem;
+        padding: 1rem;
+        background: #f9f9f9;
+        border-left: 4px solid #007acc;
+        border-radius: 6px;
+    }
+    .pub-entry summary {
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .pub-entry pre {
+        background: #eee;
+        padding: 0.5rem;
+        overflow-x: auto;
+        font-size: 0.9rem;
+        position: relative;
+    }
+    .copy-button {
+        position: absolute;
+        top: 0.3rem;
+        right: 0.5rem;
+        background: #007acc;
+        color: white;
+        border: none;
+        padding: 0.2rem 0.5rem;
+        border-radius: 4px;
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+    .copy-button:active {
+        background: #005f99;
+    }
+    .copy-feedback {
+        font-size: 0.8rem;
+        color: green;
+        margin-top: 0.3rem;
+        display: none;
+    }
+    .pub-entry a {
+        color: #007acc;
+        text-decoration: none;
+    }
+    .pub-entry a:hover {
+        text-decoration: underline;
+    }
+  </style>
+  <script>
+    function copyBibtex(id) {
+    const textarea = document.getElementById(id);
+    textarea.select();
+    document.execCommand('copy');
+
+    const feedback = document.getElementById(id + '-copied');
+    feedback.style.display = 'inline';
+    setTimeout(() => {
+        feedback.style.display = 'none';
+    }, 1500);
+    }
+  </script>
+
+<details class="year-block" open>
+<summary>2024</summary>
+<div>
+<details class="pub-entry">
+ <summary>Beyond data poisoning in federated learning<br><b style="color:#32a87b;">Expert Systems with Applications</b><br><em style="color:blue;">Kasyap, Harsh</em>, Tripathy, Somanath</summary>
+  <div>
+<p><strong>Abstract:</strong> Federated learning (FL) has emerged as a promising privacy-preserving solution, which facilitates collaborative learning. However, FL is also vulnerable to poisoning attacks, as it has no control over the participant’s behavior. Machine learning (ML) models are heavily trained for low generalization errors. Generative models learn the patterns in the input data to discover out-of-distribution samples, which can be used to poison the model, thereby degrading its performance. This paper proposes a novel approach to generate poisoned (adversarial) samples using hyperdimensional computing (HDC), projecting an input sample to a large HD space and perturbing it in the vicinity of the target class HDC model. This perturbation preserves the semantics of the original samples and adds hidden backdoor/noise into it. It generates a large set of adversarial samples equal to the HD space. It is observed that a trained ML …</p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0957417423016949" target="_blank">🔗 View Paper</a></p>
+<p><strong>BibTeX:</strong></p>
+
+<div style="position: relative;">
+  <button class="copy-button" onclick="copyBibtex('bibtex_2024_0')">Copy</button>
+  <pre><code>@article{beyond_data_poisoning_in_federated_learn_2,
+    author = &quot;Kasyap, Harsh and Tripathy, Somanath&quot;,
+    abstract = &quot;Federated learning (FL) has emerged as a promising privacy-preserving solution, which facilitates collaborative learning. However, FL is also vulnerable to poisoning attacks, as it has no control over the participant’s behavior. Machine learning (ML) models are heavily trained for low generalization errors. Generative models learn the patterns in the input data to discover out-of-distribution samples, which can be used to poison the model, thereby degrading its performance. This paper proposes a novel approach to generate poisoned (adversarial) samples using hyperdimensional computing (HDC), projecting an input sample to a large HD space and perturbing it in the vicinity of the target class HDC model. This perturbation preserves the semantics of the original samples and adds hidden backdoor/noise into it. It generates a large set of adversarial samples equal to the HD space. It is observed that a trained ML …&quot;,
+    journal = &quot;Expert Systems with Applications&quot;,
+    pages = &quot;121192&quot;,
+    publisher = &quot;Pergamon&quot;,
+    title = &quot;Beyond data poisoning in federated learning&quot;,
+    url = &quot;https://www.sciencedirect.com/science/article/pii/S0957417423016949&quot;,
+    volume = &quot;235&quot;,
+    year = &quot;2024&quot;
+}
+</code></pre>
+  <textarea id="bibtex_2024_0" style="position:absolute; left:-9999px;">@article{beyond_data_poisoning_in_federated_learn_2,
+    author = "Kasyap, Harsh and Tripathy, Somanath",
+    abstract = "Federated learning (FL) has emerged as a promising privacy-preserving solution, which facilitates collaborative learning. However, FL is also vulnerable to poisoning attacks, as it has no control over the participant’s behavior. Machine learning (ML) models are heavily trained for low generalization errors. Generative models learn the patterns in the input data to discover out-of-distribution samples, which can be used to poison the model, thereby degrading its performance. This paper proposes a novel approach to generate poisoned (adversarial) samples using hyperdimensional computing (HDC), projecting an input sample to a large HD space and perturbing it in the vicinity of the target class HDC model. This perturbation preserves the semantics of the original samples and adds hidden backdoor/noise into it. It generates a large set of adversarial samples equal to the HD space. It is observed that a trained ML …",
+    journal = "Expert Systems with Applications",
+    pages = "121192",
+    publisher = "Pergamon",
+    title = "Beyond data poisoning in federated learning",
+    url = "https://www.sciencedirect.com/science/article/pii/S0957417423016949",
+    volume = "235",
+    year = "2024"
+}
+</textarea>
+  <span class="copy-feedback" id="bibtex_2024_0-copied">✔ Copied!</span>
+</div>
+
+  </div>
+</details>
+<details class="pub-entry">
+ <summary>Mitigating Bias: Model Pruning for Enhanced Model Fairness and Efficiency<br><b style="color:#32a87b;">27th European Conference on Artificial Intelligence (ECAI 2024),19-24 October 2024, Santiago de Compostela, Spain</b><br><em style="color:blue;">Kasyap, Harsh</em>, Atmaca, Ugur, Iezzi, Michela, Walsh, Toby, Maple, Carsten</summary>
+  <div>
+<p><strong>BibTeX:</strong></p>
+
+<div style="position: relative;">
+  <button class="copy-button" onclick="copyBibtex('bibtex_2024_1')">Copy</button>
+  <pre><code>@article{mitigating_bias_model_pruning_for_enhanc_17,
+    author = &quot;Kasyap, Harsh and Atmaca, Ugur and Iezzi, Michela and Walsh, Toby and Maple, Carsten&quot;,
+    conference = &quot;27th European Conference on Artificial Intelligence (ECAI 2024),19-24 October 2024, Santiago de Compostela, Spain&quot;,
+    pages = &quot;995 - 1002&quot;,
+    publisher = &quot;https://ebooks.iospress.nl/doi/10.3233/FAIA240589&quot;,
+    title = &quot;Mitigating Bias: Model Pruning for Enhanced Model Fairness and Efficiency&quot;,
+    volume = &quot;392&quot;,
+    year = &quot;2024&quot;
+}
+</code></pre>
+  <textarea id="bibtex_2024_1" style="position:absolute; left:-9999px;">@article{mitigating_bias_model_pruning_for_enhanc_17,
+    author = "Kasyap, Harsh and Atmaca, Ugur and Iezzi, Michela and Walsh, Toby and Maple, Carsten",
+    conference = "27th European Conference on Artificial Intelligence (ECAI 2024),19-24 October 2024, Santiago de Compostela, Spain",
+    pages = "995 - 1002",
+    publisher = "https://ebooks.iospress.nl/doi/10.3233/FAIA240589",
+    title = "Mitigating Bias: Model Pruning for Enhanced Model Fairness and Efficiency",
+    volume = "392",
+    year = "2024"
+}
+</textarea>
+  <span class="copy-feedback" id="bibtex_2024_1-copied">✔ Copied!</span>
+</div>
+
+  </div>
+</details>
+<details class="pub-entry">
+ <summary>Patch-based Adversarial Attack against DNNs<br><b style="color:#32a87b;">2024 Conference on Building a Secure &amp; Empowered Cyberspace (BuildSEC)</b><br>Rinwa, Nemichand, <em style="color:blue;">Kasyap, Harsh</em>, Tripathy, Somanath</summary>
+  <div>
+<p><strong>Abstract:</strong> Deep neural networks (DNNs) have revolutionized machine learning with their remarkable capabilities in various applications. However, their vulnerability to adversarial attacks, where subtle perturbations can lead to misclassification, raises significant concerns regarding their reliability and security. In this paper, we study adversarial attacks by implementing a sophisticated patch-based methodology to assess the vulnerability of DNNs. Our approach involves freezing the weights of trained classification models and introducing a patch parameter that is strategically placed on images from diverse datasets such as MNIST, CIFAR-100, and a transportation dataset comprising 43 categories. The primary objective is to evaluate the impact of these patches on DNNs’ classification accuracy, particularly focusing on their robustness against white-box and black-box attacks. Our results demonstrate high attack success rates …</p>
+<p><a href="https://ieeexplore.ieee.org/abstract/document/10874326/" target="_blank">🔗 View Paper</a></p>
+<p><strong>BibTeX:</strong></p>
+
+<div style="position: relative;">
+  <button class="copy-button" onclick="copyBibtex('bibtex_2024_2')">Copy</button>
+  <pre><code>@article{patch_based_adversarial_attack_against_d_13,
+    author = &quot;Rinwa, Nemichand and Kasyap, Harsh and Tripathy, Somanath&quot;,
+    abstract = &quot;Deep neural networks (DNNs) have revolutionized machine learning with their remarkable capabilities in various applications. However, their vulnerability to adversarial attacks, where subtle perturbations can lead to misclassification, raises significant concerns regarding their reliability and security. In this paper, we study adversarial attacks by implementing a sophisticated patch-based methodology to assess the vulnerability of DNNs. Our approach involves freezing the weights of trained classification models and introducing a patch parameter that is strategically placed on images from diverse datasets such as MNIST, CIFAR-100, and a transportation dataset comprising 43 categories. The primary objective is to evaluate the impact of these patches on DNNs’ classification accuracy, particularly focusing on their robustness against white-box and black-box attacks. Our results demonstrate high attack success rates …&quot;,
+    conference = &quot;2024 Conference on Building a Secure \&amp; Empowered Cyberspace (BuildSEC)&quot;,
+    pages = &quot;24-27&quot;,
+    publisher = &quot;IEEE&quot;,
+    title = &quot;Patch-based Adversarial Attack against DNNs&quot;,
+    url = &quot;https://ieeexplore.ieee.org/abstract/document/10874326/&quot;,
+    year = &quot;2024&quot;
+}
+</code></pre>
+  <textarea id="bibtex_2024_2" style="position:absolute; left:-9999px;">@article{patch_based_adversarial_attack_against_d_13,
+    author = "Rinwa, Nemichand and Kasyap, Harsh and Tripathy, Somanath",
+    abstract = "Deep neural networks (DNNs) have revolutionized machine learning with their remarkable capabilities in various applications. However, their vulnerability to adversarial attacks, where subtle perturbations can lead to misclassification, raises significant concerns regarding their reliability and security. In this paper, we study adversarial attacks by implementing a sophisticated patch-based methodology to assess the vulnerability of DNNs. Our approach involves freezing the weights of trained classification models and introducing a patch parameter that is strategically placed on images from diverse datasets such as MNIST, CIFAR-100, and a transportation dataset comprising 43 categories. The primary objective is to evaluate the impact of these patches on DNNs’ classification accuracy, particularly focusing on their robustness against white-box and black-box attacks. Our results demonstrate high attack success rates …",
+    conference = "2024 Conference on Building a Secure \& Empowered Cyberspace (BuildSEC)",
+    pages = "24-27",
+    publisher = "IEEE",
+    title = "Patch-based Adversarial Attack against DNNs",
+    url = "https://ieeexplore.ieee.org/abstract/document/10874326/",
+    year = "2024"
+}
+</textarea>
+  <span class="copy-feedback" id="bibtex_2024_2-copied">✔ Copied!</span>
+</div>
+
+  </div>
+</details>
+<details class="pub-entry">
+ <summary>Privacy-preserving and byzantine-robust federated learning framework using permissioned blockchain<br><b style="color:#32a87b;">Expert Systems with Applications</b><br><em style="color:blue;">Kasyap, Harsh</em>, Tripathy, Somanath</summary>
+  <div>
+<p><strong>Abstract:</strong> Data is readily available with the growing number of smart and IoT devices. However, application-specific data is available in small chunks and distributed across demographics. Also, sharing data online brings serious concerns and poses various security and privacy threats. To solve these issues, federated learning (FL) has emerged as a promising secure and collaborative learning solution. FL brings the machine learning model to the data owners, trains locally, and then sends the trained model to the central curator for final aggregation. However, FL is prone to poisoning and inference attacks in the presence of malicious participants and curious servers. Different Byzantine-robust aggregation schemes exist to mitigate poisoning attacks, but they require raw access to the model updates. Thus, it exposes the submitted updates to inference attacks. This work proposes a Byzantine-Robust and Inference-Resistant …</p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0957417423027124" target="_blank">🔗 View Paper</a></p>
+<p><strong>BibTeX:</strong></p>
+
+<div style="position: relative;">
+  <button class="copy-button" onclick="copyBibtex('bibtex_2024_3')">Copy</button>
+  <pre><code>@article{privacy_preserving_and_byzantine_robust__1,
+    author = &quot;Kasyap, Harsh and Tripathy, Somanath&quot;,
+    abstract = &quot;Data is readily available with the growing number of smart and IoT devices. However, application-specific data is available in small chunks and distributed across demographics. Also, sharing data online brings serious concerns and poses various security and privacy threats. To solve these issues, federated learning (FL) has emerged as a promising secure and collaborative learning solution. FL brings the machine learning model to the data owners, trains locally, and then sends the trained model to the central curator for final aggregation. However, FL is prone to poisoning and inference attacks in the presence of malicious participants and curious servers. Different Byzantine-robust aggregation schemes exist to mitigate poisoning attacks, but they require raw access to the model updates. Thus, it exposes the submitted updates to inference attacks. This work proposes a Byzantine-Robust and Inference-Resistant …&quot;,
+    journal = &quot;Expert Systems with Applications&quot;,
+    pages = &quot;122210&quot;,
+    publisher = &quot;Pergamon&quot;,
+    title = &quot;Privacy-preserving and byzantine-robust federated learning framework using permissioned blockchain&quot;,
+    url = &quot;https://www.sciencedirect.com/science/article/pii/S0957417423027124&quot;,
+    volume = &quot;238&quot;,
+    year = &quot;2024&quot;
+}
+</code></pre>
+  <textarea id="bibtex_2024_3" style="position:absolute; left:-9999px;">@article{privacy_preserving_and_byzantine_robust__1,
+    author = "Kasyap, Harsh and Tripathy, Somanath",
+    abstract = "Data is readily available with the growing number of smart and IoT devices. However, application-specific data is available in small chunks and distributed across demographics. Also, sharing data online brings serious concerns and poses various security and privacy threats. To solve these issues, federated learning (FL) has emerged as a promising secure and collaborative learning solution. FL brings the machine learning model to the data owners, trains locally, and then sends the trained model to the central curator for final aggregation. However, FL is prone to poisoning and inference attacks in the presence of malicious participants and curious servers. Different Byzantine-robust aggregation schemes exist to mitigate poisoning attacks, but they require raw access to the model updates. Thus, it exposes the submitted updates to inference attacks. This work proposes a Byzantine-Robust and Inference-Resistant …",
+    journal = "Expert Systems with Applications",
+    pages = "122210",
+    publisher = "Pergamon",
+    title = "Privacy-preserving and byzantine-robust federated learning framework using permissioned blockchain",
+    url = "https://www.sciencedirect.com/science/article/pii/S0957417423027124",
+    volume = "238",
+    year = "2024"
+}
+</textarea>
+  <span class="copy-feedback" id="bibtex_2024_3-copied">✔ Copied!</span>
+</div>
+
+  </div>
+</details>
+<details class="pub-entry">
+ <summary>Privacy-preserving Fuzzy Name Matching for Sharing Financial Intelligence<br><b style="color:#32a87b;">arXiv preprint arXiv:2407.19979</b><br><em style="color:blue;">Kasyap, Harsh</em>, Atmaca, Ugur Ilker, Maple, Carsten, Cormode, Graham, He, Jiancong</summary>
+  <div>
+<p><strong>Abstract:</strong> Financial institutions rely on data for many operations, including a need to drive efficiency, enhance services and prevent financial crime. Data sharing across an organisation or between institutions can facilitate rapid, evidence-based decision-making, including identifying money laundering and fraud. However, modern data privacy regulations impose restrictions on data sharing. For this reason, privacy-enhancing technologies are being increasingly employed to allow organisations to derive shared intelligence while ensuring regulatory compliance. This paper examines the case in which regulatory restrictions mean a party cannot share data on accounts of interest with another (internal or external) party to determine individuals that hold accounts in both datasets. The names of account holders may be recorded differently in each dataset. We introduce a novel privacy-preserving scheme for fuzzy name matching across institutions, employing fully homomorphic encryption over MinHash signatures. The efficiency of the proposed scheme is enhanced using a clustering mechanism. Our scheme ensures privacy by only revealing the possibility of a potential match to the querying party. The practicality and effectiveness are evaluated using different datasets, and compared against state-of-the-art schemes. It takes around 100 and 1000 seconds to search 1000 names from 10k and 100k names, respectively, meeting the requirements of financial institutions. Furthermore, it exhibits significant performance improvement in reducing communication overhead by 30-300 times.</p>
+<p><a href="https://arxiv.org/abs/2407.19979" target="_blank">🔗 View Paper</a></p>
+<p><strong>BibTeX:</strong></p>
+
+<div style="position: relative;">
+  <button class="copy-button" onclick="copyBibtex('bibtex_2024_4')">Copy</button>
+  <pre><code>@article{privacy_preserving_fuzzy_name_matching_f_14,
+    author = &quot;Kasyap, Harsh and Atmaca, Ugur Ilker and Maple, Carsten and Cormode, Graham and He, Jiancong&quot;,
+    abstract = &quot;Financial institutions rely on data for many operations, including a need to drive efficiency, enhance services and prevent financial crime. Data sharing across an organisation or between institutions can facilitate rapid, evidence-based decision-making, including identifying money laundering and fraud. However, modern data privacy regulations impose restrictions on data sharing. For this reason, privacy-enhancing technologies are being increasingly employed to allow organisations to derive shared intelligence while ensuring regulatory compliance. This paper examines the case in which regulatory restrictions mean a party cannot share data on accounts of interest with another (internal or external) party to determine individuals that hold accounts in both datasets. The names of account holders may be recorded differently in each dataset. We introduce a novel privacy-preserving scheme for fuzzy name matching across institutions, employing fully homomorphic encryption over MinHash signatures. The efficiency of the proposed scheme is enhanced using a clustering mechanism. Our scheme ensures privacy by only revealing the possibility of a potential match to the querying party. The practicality and effectiveness are evaluated using different datasets, and compared against state-of-the-art schemes. It takes around 100 and 1000 seconds to search 1000 names from 10k and 100k names, respectively, meeting the requirements of financial institutions. Furthermore, it exhibits significant performance improvement in reducing communication overhead by 30-300 times.&quot;,
+    journal = &quot;arXiv preprint arXiv:2407.19979&quot;,
+    title = &quot;Privacy-preserving Fuzzy Name Matching for Sharing Financial Intelligence&quot;,
+    url = &quot;https://arxiv.org/abs/2407.19979&quot;,
+    year = &quot;2024&quot;
+}
+</code></pre>
+  <textarea id="bibtex_2024_4" style="position:absolute; left:-9999px;">@article{privacy_preserving_fuzzy_name_matching_f_14,
+    author = "Kasyap, Harsh and Atmaca, Ugur Ilker and Maple, Carsten and Cormode, Graham and He, Jiancong",
+    abstract = "Financial institutions rely on data for many operations, including a need to drive efficiency, enhance services and prevent financial crime. Data sharing across an organisation or between institutions can facilitate rapid, evidence-based decision-making, including identifying money laundering and fraud. However, modern data privacy regulations impose restrictions on data sharing. For this reason, privacy-enhancing technologies are being increasingly employed to allow organisations to derive shared intelligence while ensuring regulatory compliance. This paper examines the case in which regulatory restrictions mean a party cannot share data on accounts of interest with another (internal or external) party to determine individuals that hold accounts in both datasets. The names of account holders may be recorded differently in each dataset. We introduce a novel privacy-preserving scheme for fuzzy name matching across institutions, employing fully homomorphic encryption over MinHash signatures. The efficiency of the proposed scheme is enhanced using a clustering mechanism. Our scheme ensures privacy by only revealing the possibility of a potential match to the querying party. The practicality and effectiveness are evaluated using different datasets, and compared against state-of-the-art schemes. It takes around 100 and 1000 seconds to search 1000 names from 10k and 100k names, respectively, meeting the requirements of financial institutions. Furthermore, it exhibits significant performance improvement in reducing communication overhead by 30-300 times.",
+    journal = "arXiv preprint arXiv:2407.19979",
+    title = "Privacy-preserving Fuzzy Name Matching for Sharing Financial Intelligence",
+    url = "https://arxiv.org/abs/2407.19979",
+    year = "2024"
+}
+</textarea>
+  <span class="copy-feedback" id="bibtex_2024_4-copied">✔ Copied!</span>
+</div>
+
+  </div>
+</details>
+<details class="pub-entry">
+ <summary>Privacy-preserving personalised federated learning financial fraud detection<br><b style="color:#32a87b;">International Conference on AI and the Digital Economy (CADE 2024)</b><br><em style="color:blue;">Kasyap, Harsh</em>, Atmaca, Ugur Ilker, Maple, Carsten</summary>
+  <div>
+<p><strong>Abstract:</strong> Financial institutions increasingly utilise AI-based applications to enhance fraud detection. However, in today&#x27;s highly interconnected world with higher access to information and technology, fraudulent activities are also becoming increasingly sophisticated. Thus, models trained only on local historical data may struggle to identify such complex transactions effectively. To address this challenge, the institutions may share their data with each other. However, such data sharing activity is constrained by regulatory compliance and institutional trust requirements. We propose adopting Federated Learning (FL) with Privacy Enhancing Technologies (PET) as a state-of-the-art solution to bolster fraud detection capabilities while addressing concerns related to data privacy and competition. Financial institutions face the dual mandate of improving fraud prevention and maintaining the security and privacy of customer …</p>
+<p><a href="https://ieeexplore.ieee.org/abstract/document/10700884/" target="_blank">🔗 View Paper</a></p>
+<p><strong>BibTeX:</strong></p>
+
+<div style="position: relative;">
+  <button class="copy-button" onclick="copyBibtex('bibtex_2024_5')">Copy</button>
+  <pre><code>@article{privacy_preserving_personalised_federate_16,
+    author = &quot;Kasyap, Harsh and Atmaca, Ugur Ilker and Maple, Carsten&quot;,
+    abstract = &quot;Financial institutions increasingly utilise AI-based applications to enhance fraud detection. However, in today&#x27;s highly interconnected world with higher access to information and technology, fraudulent activities are also becoming increasingly sophisticated. Thus, models trained only on local historical data may struggle to identify such complex transactions effectively. To address this challenge, the institutions may share their data with each other. However, such data sharing activity is constrained by regulatory compliance and institutional trust requirements. We propose adopting Federated Learning (FL) with Privacy Enhancing Technologies (PET) as a state-of-the-art solution to bolster fraud detection capabilities while addressing concerns related to data privacy and competition. Financial institutions face the dual mandate of improving fraud prevention and maintaining the security and privacy of customer …&quot;,
+    conference = &quot;International Conference on AI and the Digital Economy (CADE 2024)&quot;,
+    pages = &quot;87-88&quot;,
+    publisher = &quot;IET&quot;,
+    title = &quot;Privacy-preserving personalised federated learning financial fraud detection&quot;,
+    url = &quot;https://ieeexplore.ieee.org/abstract/document/10700884/&quot;,
+    volume = &quot;2024&quot;,
+    year = &quot;2024&quot;
+}
+</code></pre>
+  <textarea id="bibtex_2024_5" style="position:absolute; left:-9999px;">@article{privacy_preserving_personalised_federate_16,
+    author = "Kasyap, Harsh and Atmaca, Ugur Ilker and Maple, Carsten",
+    abstract = "Financial institutions increasingly utilise AI-based applications to enhance fraud detection. However, in today's highly interconnected world with higher access to information and technology, fraudulent activities are also becoming increasingly sophisticated. Thus, models trained only on local historical data may struggle to identify such complex transactions effectively. To address this challenge, the institutions may share their data with each other. However, such data sharing activity is constrained by regulatory compliance and institutional trust requirements. We propose adopting Federated Learning (FL) with Privacy Enhancing Technologies (PET) as a state-of-the-art solution to bolster fraud detection capabilities while addressing concerns related to data privacy and competition. Financial institutions face the dual mandate of improving fraud prevention and maintaining the security and privacy of customer …",
+    conference = "International Conference on AI and the Digital Economy (CADE 2024)",
+    pages = "87-88",
+    publisher = "IET",
+    title = "Privacy-preserving personalised federated learning financial fraud detection",
+    url = "https://ieeexplore.ieee.org/abstract/document/10700884/",
+    volume = "2024",
+    year = "2024"
+}
+</textarea>
+  <span class="copy-feedback" id="bibtex_2024_5-copied">✔ Copied!</span>
+</div>
+
+  </div>
+</details>
+<details class="pub-entry">
+ <summary>Private and Secure Fuzzy Name Matching<br><b style="color:#32a87b;">arXiv e-prints</b><br><em style="color:blue;">Kasyap, Harsh</em>, Atmaca, Ugur Ilker, Maple, Carsten, Cormode, Graham, He, Jiancong</summary>
+  <div>
+<p><strong>Abstract:</strong> Modern financial institutions rely on data for many operations, including a need to drive efficiency, enhance services and prevent financial crime. Data sharing across an organisation or between institutions can facilitate rapid, evidence-based decision making, including identifying money laundering and fraud. However, data privacy regulations impose restrictions on data sharing. Privacy-enhancing technologies are being increasingly employed to allow organisations to derive shared intelligence while ensuring regulatory compliance. This paper examines the case in which regulatory restrictions mean a party cannot share data on accounts of interest with another (internal or external) party to identify people that hold an account in each dataset. We observe that the names of account holders may be recorded differently in each data set. We introduce a novel privacy-preserving approach for fuzzy name matching …</p>
+<p><a href="https://ui.adsabs.harvard.edu/abs/2024arXiv240719979K/abstract" target="_blank">🔗 View Paper</a></p>
+<p><strong>BibTeX:</strong></p>
+
+<div style="position: relative;">
+  <button class="copy-button" onclick="copyBibtex('bibtex_2024_6')">Copy</button>
+  <pre><code>@article{private_and_secure_fuzzy_name_matching_15,
+    author = &quot;Kasyap, Harsh and Atmaca, Ugur Ilker and Maple, Carsten and Cormode, Graham and He, Jiancong&quot;,
+    abstract = &quot;Modern financial institutions rely on data for many operations, including a need to drive efficiency, enhance services and prevent financial crime. Data sharing across an organisation or between institutions can facilitate rapid, evidence-based decision making, including identifying money laundering and fraud. However, data privacy regulations impose restrictions on data sharing. Privacy-enhancing technologies are being increasingly employed to allow organisations to derive shared intelligence while ensuring regulatory compliance. This paper examines the case in which regulatory restrictions mean a party cannot share data on accounts of interest with another (internal or external) party to identify people that hold an account in each dataset. We observe that the names of account holders may be recorded differently in each data set. We introduce a novel privacy-preserving approach for fuzzy name matching …&quot;,
+    journal = &quot;arXiv e-prints&quot;,
+    pages = &quot;arXiv: 2407.19979&quot;,
+    title = &quot;Private and Secure Fuzzy Name Matching&quot;,
+    url = &quot;https://ui.adsabs.harvard.edu/abs/2024arXiv240719979K/abstract&quot;,
+    year = &quot;2024&quot;
+}
+</code></pre>
+  <textarea id="bibtex_2024_6" style="position:absolute; left:-9999px;">@article{private_and_secure_fuzzy_name_matching_15,
+    author = "Kasyap, Harsh and Atmaca, Ugur Ilker and Maple, Carsten and Cormode, Graham and He, Jiancong",
+    abstract = "Modern financial institutions rely on data for many operations, including a need to drive efficiency, enhance services and prevent financial crime. Data sharing across an organisation or between institutions can facilitate rapid, evidence-based decision making, including identifying money laundering and fraud. However, data privacy regulations impose restrictions on data sharing. Privacy-enhancing technologies are being increasingly employed to allow organisations to derive shared intelligence while ensuring regulatory compliance. This paper examines the case in which regulatory restrictions mean a party cannot share data on accounts of interest with another (internal or external) party to identify people that hold an account in each dataset. We observe that the names of account holders may be recorded differently in each data set. We introduce a novel privacy-preserving approach for fuzzy name matching …",
+    journal = "arXiv e-prints",
+    pages = "arXiv: 2407.19979",
+    title = "Private and Secure Fuzzy Name Matching",
+    url = "https://ui.adsabs.harvard.edu/abs/2024arXiv240719979K/abstract",
+    year = "2024"
+}
+</textarea>
+  <span class="copy-feedback" id="bibtex_2024_6-copied">✔ Copied!</span>
+</div>
+
+  </div>
+</details>
+<details class="pub-entry">
+ <summary>Sine: Similarity is Not Enough for Mitigating Local Model Poisoning Attacks in Federated Learning<br><b style="color:#32a87b;">IEEE Transactions on Dependable and Secure Computing</b><br><em style="color:blue;">Kasyap, Harsh</em>, Tripathy, Somanath</summary>
+  <div>
+<p><strong>Abstract:</strong> Federated learning is a collaborative machine learning paradigm that brings the model to the edge for training over the participants’ local data under the orchestration of a trusted server. Though this paradigm protects data privacy, the aggregator has no control over the local data or model at the edge. So, malicious participants could perturb their locally held data or model to post an insidious update, degrading global model accuracy. Recent Byzantine-robust aggregation rules could defend against data poisoning attacks. Also, model poisoning attacks have become more ingenious and adaptive to the existing defenses. But these attacks are crafted against specific aggregation rules. This work presents a generic model poisoning attack framework named Sine (Similarity is not enough), which harnesses vulnerabilities in cosine similarity to increase the impact of poisoning attacks by 20–30%. Sine makes …</p>
+<p><a href="https://ieeexplore.ieee.org/abstract/document/10398506/" target="_blank">🔗 View Paper</a></p>
+<p><strong>BibTeX:</strong></p>
+
+<div style="position: relative;">
+  <button class="copy-button" onclick="copyBibtex('bibtex_2024_7')">Copy</button>
+  <pre><code>@article{sine_similarity_is_not_enough_for_mitiga_6,
+    author = &quot;Kasyap, Harsh and Tripathy, Somanath&quot;,
+    abstract = &quot;Federated learning is a collaborative machine learning paradigm that brings the model to the edge for training over the participants’ local data under the orchestration of a trusted server. Though this paradigm protects data privacy, the aggregator has no control over the local data or model at the edge. So, malicious participants could perturb their locally held data or model to post an insidious update, degrading global model accuracy. Recent Byzantine-robust aggregation rules could defend against data poisoning attacks. Also, model poisoning attacks have become more ingenious and adaptive to the existing defenses. But these attacks are crafted against specific aggregation rules. This work presents a generic model poisoning attack framework named Sine (Similarity is not enough), which harnesses vulnerabilities in cosine similarity to increase the impact of poisoning attacks by 20–30\%. Sine makes …&quot;,
+    journal = &quot;IEEE Transactions on Dependable and Secure Computing&quot;,
+    number = &quot;5&quot;,
+    pages = &quot;4481-4494&quot;,
+    publisher = &quot;IEEE&quot;,
+    title = &quot;Sine: Similarity is Not Enough for Mitigating Local Model Poisoning Attacks in Federated Learning&quot;,
+    url = &quot;https://ieeexplore.ieee.org/abstract/document/10398506/&quot;,
+    volume = &quot;21&quot;,
+    year = &quot;2024&quot;
+}
+</code></pre>
+  <textarea id="bibtex_2024_7" style="position:absolute; left:-9999px;">@article{sine_similarity_is_not_enough_for_mitiga_6,
+    author = "Kasyap, Harsh and Tripathy, Somanath",
+    abstract = "Federated learning is a collaborative machine learning paradigm that brings the model to the edge for training over the participants’ local data under the orchestration of a trusted server. Though this paradigm protects data privacy, the aggregator has no control over the local data or model at the edge. So, malicious participants could perturb their locally held data or model to post an insidious update, degrading global model accuracy. Recent Byzantine-robust aggregation rules could defend against data poisoning attacks. Also, model poisoning attacks have become more ingenious and adaptive to the existing defenses. But these attacks are crafted against specific aggregation rules. This work presents a generic model poisoning attack framework named Sine (Similarity is not enough), which harnesses vulnerabilities in cosine similarity to increase the impact of poisoning attacks by 20–30\%. Sine makes …",
+    journal = "IEEE Transactions on Dependable and Secure Computing",
+    number = "5",
+    pages = "4481-4494",
+    publisher = "IEEE",
+    title = "Sine: Similarity is Not Enough for Mitigating Local Model Poisoning Attacks in Federated Learning",
+    url = "https://ieeexplore.ieee.org/abstract/document/10398506/",
+    volume = "21",
+    year = "2024"
+}
+</textarea>
+  <span class="copy-feedback" id="bibtex_2024_7-copied">✔ Copied!</span>
+</div>
+
+  </div>
+</details>
+</div>
+</details>
+<details class="year-block" open>
+<summary>2023</summary>
+<div>
+<details class="pub-entry">
+ <summary>HDFL: Private and Robust Federated Learning using Hyperdimensional Computing<br><b style="color:#32a87b;">2023 IEEE 22nd International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)</b><br><em style="color:blue;">Kasyap, Harsh</em>, Tripathy, Somanath, Conti, Mauro</summary>
+  <div>
+<p><strong>Abstract:</strong> Machine learning (ML) has seen widespread adoption across different domains and is used to make critical decisions. However, with profuse and diverse data available, collaboration is indispensable for ML. The traditional centralized ML for collaboration is susceptible to data theft and inference attacks. Federated learning (FL) promises secure collaborative machine learning by moving the model to the data. However, FL faces the challenge of data and model poisoning attacks. This is because FL provides autonomy to the participants. Many Byzantine-robust aggregation schemes exist to identify such poisoned model updates from participants. But, these schemes require raw access to the local model updates, which exposes them to inference attacks. Thus, the existing FL is still insecure to be adopted.This paper proposes the very first generic FL framework, which is both resistant to inference attacks and robust to …</p>
+<p><a href="https://ieeexplore.ieee.org/abstract/document/10538805/" target="_blank">🔗 View Paper</a></p>
+<p><strong>BibTeX:</strong></p>
+
+<div style="position: relative;">
+  <button class="copy-button" onclick="copyBibtex('bibtex_2023_0')">Copy</button>
+  <pre><code>@article{hdfl_private_and_robust_federated_learni_11,
+    author = &quot;Kasyap, Harsh and Tripathy, Somanath and Conti, Mauro&quot;,
+    abstract = &quot;Machine learning (ML) has seen widespread adoption across different domains and is used to make critical decisions. However, with profuse and diverse data available, collaboration is indispensable for ML. The traditional centralized ML for collaboration is susceptible to data theft and inference attacks. Federated learning (FL) promises secure collaborative machine learning by moving the model to the data. However, FL faces the challenge of data and model poisoning attacks. This is because FL provides autonomy to the participants. Many Byzantine-robust aggregation schemes exist to identify such poisoned model updates from participants. But, these schemes require raw access to the local model updates, which exposes them to inference attacks. Thus, the existing FL is still insecure to be adopted.This paper proposes the very first generic FL framework, which is both resistant to inference attacks and robust to …&quot;,
+    conference = &quot;2023 IEEE 22nd International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)&quot;,
+    pages = &quot;214-221&quot;,
+    publisher = &quot;IEEE&quot;,
+    title = &quot;HDFL: Private and Robust Federated Learning using Hyperdimensional Computing&quot;,
+    url = &quot;https://ieeexplore.ieee.org/abstract/document/10538805/&quot;,
+    year = &quot;2023&quot;
+}
+</code></pre>
+  <textarea id="bibtex_2023_0" style="position:absolute; left:-9999px;">@article{hdfl_private_and_robust_federated_learni_11,
+    author = "Kasyap, Harsh and Tripathy, Somanath and Conti, Mauro",
+    abstract = "Machine learning (ML) has seen widespread adoption across different domains and is used to make critical decisions. However, with profuse and diverse data available, collaboration is indispensable for ML. The traditional centralized ML for collaboration is susceptible to data theft and inference attacks. Federated learning (FL) promises secure collaborative machine learning by moving the model to the data. However, FL faces the challenge of data and model poisoning attacks. This is because FL provides autonomy to the participants. Many Byzantine-robust aggregation schemes exist to identify such poisoned model updates from participants. But, these schemes require raw access to the local model updates, which exposes them to inference attacks. Thus, the existing FL is still insecure to be adopted.This paper proposes the very first generic FL framework, which is both resistant to inference attacks and robust to …",
+    conference = "2023 IEEE 22nd International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+    pages = "214-221",
+    publisher = "IEEE",
+    title = "HDFL: Private and Robust Federated Learning using Hyperdimensional Computing",
+    url = "https://ieeexplore.ieee.org/abstract/document/10538805/",
+    year = "2023"
+}
+</textarea>
+  <span class="copy-feedback" id="bibtex_2023_0-copied">✔ Copied!</span>
+</div>
+
+  </div>
+</details>
+<details class="pub-entry">
+ <summary>Privacy-Preserving Federated Learning Framework using Permissioned Blockchain<br><b style="color:#32a87b;"></b><br><em style="color:blue;">Kasyap, Harsh</em>, Tripathy, Somanath</summary>
+  <div>
+<p><strong>Abstract:</strong> Data is readily available with the growing number of smart and IoT devices. Industries of different sectors follow technological advancement to be benefited from data sharing. However, application-specific data is available in small chunks and distributed across demographics. Additionally, sharing data online brings serious concerns and poses various security and privacy threats. To address these issues, federated learning (FL), a secure and collaborative learning paradigm, would be suitable, which brings the machine learning model to the data owners. Unfortunately, FL is prone to poisoning and inference attacks in presence of malicious users and curious servers. This work proposes a permissioned blockchain based federated learning framework, called PrivateFL (Privacy-Preserving Federated Learning Framework). PrivateFL replaces the central server with a Hyperledger Fabric network, to prevent inference attacks. Further, we propose VPSA (Vertically Partitioned Secure Aggregation) tailored to PrivateFL framework, which performs robust and secure aggregation. PrivateFL facilitates multi-tenancy for learning different machine learning models. Theoretical analysis proves that the system is resistant against inference attacks, even if n-1 peers are compromised. A secure prediction mechanism is also proposed to securely query a global model and protecting its intellectual property rights. Experimental evaluation shows that PrivateFL performs better than the traditional (centralized) learning systems and converges faster, while capable enough to detect malicious updates.</p>
+<p><a href="https://www.researchsquare.com/article/rs-2663549/latest" target="_blank">🔗 View Paper</a></p>
+<p><strong>BibTeX:</strong></p>
+
+<div style="position: relative;">
+  <button class="copy-button" onclick="copyBibtex('bibtex_2023_1')">Copy</button>
+  <pre><code>@article{privacy_preserving_federated_learning_fr_18,
+    author = &quot;Kasyap, Harsh and Tripathy, Somanath&quot;,
+    abstract = &quot;Data is readily available with the growing number of smart and IoT devices. Industries of different sectors follow technological advancement to be benefited from data sharing. However, application-specific data is available in small chunks and distributed across demographics. Additionally, sharing data online brings serious concerns and poses various security and privacy threats. To address these issues, federated learning (FL), a secure and collaborative learning paradigm, would be suitable, which brings the machine learning model to the data owners. Unfortunately, FL is prone to poisoning and inference attacks in presence of malicious users and curious servers. This work proposes a permissioned blockchain based federated learning framework, called PrivateFL (Privacy-Preserving Federated Learning Framework). PrivateFL replaces the central server with a Hyperledger Fabric network, to prevent inference attacks. Further, we propose VPSA (Vertically Partitioned Secure Aggregation) tailored to PrivateFL framework, which performs robust and secure aggregation. PrivateFL facilitates multi-tenancy for learning different machine learning models. Theoretical analysis proves that the system is resistant against inference attacks, even if n-1 peers are compromised. A secure prediction mechanism is also proposed to securely query a global model and protecting its intellectual property rights. Experimental evaluation shows that PrivateFL performs better than the traditional (centralized) learning systems and converges faster, while capable enough to detect malicious updates.&quot;,
+    title = &quot;Privacy-Preserving Federated Learning Framework using Permissioned Blockchain&quot;,
+    url = &quot;https://www.researchsquare.com/article/rs-2663549/latest&quot;,
+    year = &quot;2023&quot;
+}
+</code></pre>
+  <textarea id="bibtex_2023_1" style="position:absolute; left:-9999px;">@article{privacy_preserving_federated_learning_fr_18,
+    author = "Kasyap, Harsh and Tripathy, Somanath",
+    abstract = "Data is readily available with the growing number of smart and IoT devices. Industries of different sectors follow technological advancement to be benefited from data sharing. However, application-specific data is available in small chunks and distributed across demographics. Additionally, sharing data online brings serious concerns and poses various security and privacy threats. To address these issues, federated learning (FL), a secure and collaborative learning paradigm, would be suitable, which brings the machine learning model to the data owners. Unfortunately, FL is prone to poisoning and inference attacks in presence of malicious users and curious servers. This work proposes a permissioned blockchain based federated learning framework, called PrivateFL (Privacy-Preserving Federated Learning Framework). PrivateFL replaces the central server with a Hyperledger Fabric network, to prevent inference attacks. Further, we propose VPSA (Vertically Partitioned Secure Aggregation) tailored to PrivateFL framework, which performs robust and secure aggregation. PrivateFL facilitates multi-tenancy for learning different machine learning models. Theoretical analysis proves that the system is resistant against inference attacks, even if n-1 peers are compromised. A secure prediction mechanism is also proposed to securely query a global model and protecting its intellectual property rights. Experimental evaluation shows that PrivateFL performs better than the traditional (centralized) learning systems and converges faster, while capable enough to detect malicious updates.",
+    title = "Privacy-Preserving Federated Learning Framework using Permissioned Blockchain",
+    url = "https://www.researchsquare.com/article/rs-2663549/latest",
+    year = "2023"
+}
+</textarea>
+  <span class="copy-feedback" id="bibtex_2023_1-copied">✔ Copied!</span>
+</div>
+
+  </div>
+</details>
+</div>
+</details>
+<details class="year-block" open>
+<summary>2022</summary>
+<div>
+<details class="pub-entry">
+ <summary>An efficient blockchain assisted reputation aware decentralized federated learning framework<br><b style="color:#32a87b;">IEEE Transactions on Network and Service Management</b><br><em style="color:blue;">Kasyap, Harsh</em>, Manna, Arpan, Tripathy, Somanath</summary>
+  <div>
+<p><strong>Abstract:</strong> Because of the widespread presence and ease of access to the Internet, edge devices are the perfect candidates for providing quality training on a variety of applications. However, their participation is restrained due to potential leakage of sensitive and private data. Federated learning targets to address these issues by bringing the model to the device and keeping the data in place. Still, it suffers from inherent security issues such as malicious participation and unfair contribution. The central server may become a bottleneck as well as induce biased aggregation and incentives. This article proposes a blockchain assisted federated learning framework, which fosters honest participation with reduced overheads, facilitating fair contribution-based weighted incentivization. A new consensus mechanism named PoIS (Proof of Interpretation and Selection) is proposed based on honest clients’ contributions. PoIS uses model …</p>
+<p><a href="https://ieeexplore.ieee.org/abstract/document/9997114/" target="_blank">🔗 View Paper</a></p>
+<p><strong>BibTeX:</strong></p>
+
+<div style="position: relative;">
+  <button class="copy-button" onclick="copyBibtex('bibtex_2022_0')">Copy</button>
+  <pre><code>@article{an_efficient_blockchain_assisted_reputat_4,
+    author = &quot;Kasyap, Harsh and Manna, Arpan and Tripathy, Somanath&quot;,
+    abstract = &quot;Because of the widespread presence and ease of access to the Internet, edge devices are the perfect candidates for providing quality training on a variety of applications. However, their participation is restrained due to potential leakage of sensitive and private data. Federated learning targets to address these issues by bringing the model to the device and keeping the data in place. Still, it suffers from inherent security issues such as malicious participation and unfair contribution. The central server may become a bottleneck as well as induce biased aggregation and incentives. This article proposes a blockchain assisted federated learning framework, which fosters honest participation with reduced overheads, facilitating fair contribution-based weighted incentivization. A new consensus mechanism named PoIS (Proof of Interpretation and Selection) is proposed based on honest clients’ contributions. PoIS uses model …&quot;,
+    journal = &quot;IEEE Transactions on Network and Service Management&quot;,
+    number = &quot;3&quot;,
+    pages = &quot;2771-2782&quot;,
+    publisher = &quot;IEEE&quot;,
+    title = &quot;An efficient blockchain assisted reputation aware decentralized federated learning framework&quot;,
+    url = &quot;https://ieeexplore.ieee.org/abstract/document/9997114/&quot;,
+    volume = &quot;20&quot;,
+    year = &quot;2022&quot;
+}
+</code></pre>
+  <textarea id="bibtex_2022_0" style="position:absolute; left:-9999px;">@article{an_efficient_blockchain_assisted_reputat_4,
+    author = "Kasyap, Harsh and Manna, Arpan and Tripathy, Somanath",
+    abstract = "Because of the widespread presence and ease of access to the Internet, edge devices are the perfect candidates for providing quality training on a variety of applications. However, their participation is restrained due to potential leakage of sensitive and private data. Federated learning targets to address these issues by bringing the model to the device and keeping the data in place. Still, it suffers from inherent security issues such as malicious participation and unfair contribution. The central server may become a bottleneck as well as induce biased aggregation and incentives. This article proposes a blockchain assisted federated learning framework, which fosters honest participation with reduced overheads, facilitating fair contribution-based weighted incentivization. A new consensus mechanism named PoIS (Proof of Interpretation and Selection) is proposed based on honest clients’ contributions. PoIS uses model …",
+    journal = "IEEE Transactions on Network and Service Management",
+    number = "3",
+    pages = "2771-2782",
+    publisher = "IEEE",
+    title = "An efficient blockchain assisted reputation aware decentralized federated learning framework",
+    url = "https://ieeexplore.ieee.org/abstract/document/9997114/",
+    volume = "20",
+    year = "2022"
+}
+</textarea>
+  <span class="copy-feedback" id="bibtex_2022_0-copied">✔ Copied!</span>
+</div>
+
+  </div>
+</details>
+<details class="pub-entry">
+ <summary>Hidden vulnerabilities in cosine similarity based poisoning defense<br><b style="color:#32a87b;">2022 56th Annual Conference on Information Sciences and Systems (CISS)</b><br><em style="color:blue;">Kasyap, Harsh</em>, Tripathy, Somanath</summary>
+  <div>
+<p><strong>Abstract:</strong> Federated learning is a collaborative learning paradigm that deploys the model to the edge for training over the local data of the participants under the supervision of a trusted server. Despite the fact that this paradigm guarantees privacy, it is vulnerable to poisoning. Malicious participants alter their locally maintained data or model to publish an insidious update, to reduce the accuracy of the global model. Recent byzantine-robust (euclidean or cosine-similarity) based aggregation techniques, claim to protect against data poisoning attacks. On the other hand, model poisoning attacks are more insidious and adaptable to current defenses. Though different local model poisoning attacks are proposed to attack euclidean based defenses, we could not find any work to investigate cosine-similarity based defenses. We examine such defenses (FLTrust and FoolsGold) and find their underlying issues. We also demonstrate …</p>
+<p><a href="https://ieeexplore.ieee.org/abstract/document/9751167/" target="_blank">🔗 View Paper</a></p>
+<p><strong>BibTeX:</strong></p>
+
+<div style="position: relative;">
+  <button class="copy-button" onclick="copyBibtex('bibtex_2022_1')">Copy</button>
+  <pre><code>@article{hidden_vulnerabilities_in_cosine_similar_7,
+    author = &quot;Kasyap, Harsh and Tripathy, Somanath&quot;,
+    abstract = &quot;Federated learning is a collaborative learning paradigm that deploys the model to the edge for training over the local data of the participants under the supervision of a trusted server. Despite the fact that this paradigm guarantees privacy, it is vulnerable to poisoning. Malicious participants alter their locally maintained data or model to publish an insidious update, to reduce the accuracy of the global model. Recent byzantine-robust (euclidean or cosine-similarity) based aggregation techniques, claim to protect against data poisoning attacks. On the other hand, model poisoning attacks are more insidious and adaptable to current defenses. Though different local model poisoning attacks are proposed to attack euclidean based defenses, we could not find any work to investigate cosine-similarity based defenses. We examine such defenses (FLTrust and FoolsGold) and find their underlying issues. We also demonstrate …&quot;,
+    conference = &quot;2022 56th Annual Conference on Information Sciences and Systems (CISS)&quot;,
+    pages = &quot;263-268&quot;,
+    publisher = &quot;IEEE&quot;,
+    title = &quot;Hidden vulnerabilities in cosine similarity based poisoning defense&quot;,
+    url = &quot;https://ieeexplore.ieee.org/abstract/document/9751167/&quot;,
+    year = &quot;2022&quot;
+}
+</code></pre>
+  <textarea id="bibtex_2022_1" style="position:absolute; left:-9999px;">@article{hidden_vulnerabilities_in_cosine_similar_7,
+    author = "Kasyap, Harsh and Tripathy, Somanath",
+    abstract = "Federated learning is a collaborative learning paradigm that deploys the model to the edge for training over the local data of the participants under the supervision of a trusted server. Despite the fact that this paradigm guarantees privacy, it is vulnerable to poisoning. Malicious participants alter their locally maintained data or model to publish an insidious update, to reduce the accuracy of the global model. Recent byzantine-robust (euclidean or cosine-similarity) based aggregation techniques, claim to protect against data poisoning attacks. On the other hand, model poisoning attacks are more insidious and adaptable to current defenses. Though different local model poisoning attacks are proposed to attack euclidean based defenses, we could not find any work to investigate cosine-similarity based defenses. We examine such defenses (FLTrust and FoolsGold) and find their underlying issues. We also demonstrate …",
+    conference = "2022 56th Annual Conference on Information Sciences and Systems (CISS)",
+    pages = "263-268",
+    publisher = "IEEE",
+    title = "Hidden vulnerabilities in cosine similarity based poisoning defense",
+    url = "https://ieeexplore.ieee.org/abstract/document/9751167/",
+    year = "2022"
+}
+</textarea>
+  <span class="copy-feedback" id="bibtex_2022_1-copied">✔ Copied!</span>
+</div>
+
+  </div>
+</details>
+<details class="pub-entry">
+ <summary>MILSA: Model Interpretation Based Label Sniffing Attack in Federated Learning<br><b style="color:#32a87b;"></b><br>Manna, Debasmita, <em style="color:blue;">Kasyap, Harsh</em>, Tripathy, Somanath</summary>
+  <div>
+<p><strong>Abstract:</strong> Federated learning allows multiple participants to come together and collaboratively train an intelligent model. It allows local model training, while keeping the data in-place to preserve privacy. In contrast, deep learning models learn by observing the training data. Consequently, local models produced by participants are not presumed to be secure and are susceptible to inference attacks. Existing inference attacks require training multiple shadow models, white-box knowledge of training models and auxiliary data preparation, which makes these attacks to be ineffective and infeasible. This paper proposes a model interpretation based label sniffing attack called MILSA, which does not interfere with learning of the main task but learns about the presence of a particular label in the target (participant’s) training model. MILSA uses Shapley based value functions for interpreting the training models to frame inference …</p>
+<p><a href="https://link.springer.com/chapter/10.1007/978-3-031-23690-7_8" target="_blank">🔗 View Paper</a></p>
+<p><strong>BibTeX:</strong></p>
+
+<div style="position: relative;">
+  <button class="copy-button" onclick="copyBibtex('bibtex_2022_2')">Copy</button>
+  <pre><code>@article{milsa_model_interpretation_based_label_s_10,
+    author = &quot;Manna, Debasmita and Kasyap, Harsh and Tripathy, Somanath&quot;,
+    abstract = &quot;Federated learning allows multiple participants to come together and collaboratively train an intelligent model. It allows local model training, while keeping the data in-place to preserve privacy. In contrast, deep learning models learn by observing the training data. Consequently, local models produced by participants are not presumed to be secure and are susceptible to inference attacks. Existing inference attacks require training multiple shadow models, white-box knowledge of training models and auxiliary data preparation, which makes these attacks to be ineffective and infeasible. This paper proposes a model interpretation based label sniffing attack called MILSA, which does not interfere with learning of the main task but learns about the presence of a particular label in the target (participant’s) training model. MILSA uses Shapley based value functions for interpreting the training models to frame inference …&quot;,
+    pages = &quot;139-154&quot;,
+    publisher = &quot;Springer Nature Switzerland&quot;,
+    title = &quot;MILSA: Model Interpretation Based Label Sniffing Attack in Federated Learning&quot;,
+    url = &quot;https://link.springer.com/chapter/10.1007/978-3-031-23690-7\_8&quot;,
+    year = &quot;2022&quot;
+}
+</code></pre>
+  <textarea id="bibtex_2022_2" style="position:absolute; left:-9999px;">@article{milsa_model_interpretation_based_label_s_10,
+    author = "Manna, Debasmita and Kasyap, Harsh and Tripathy, Somanath",
+    abstract = "Federated learning allows multiple participants to come together and collaboratively train an intelligent model. It allows local model training, while keeping the data in-place to preserve privacy. In contrast, deep learning models learn by observing the training data. Consequently, local models produced by participants are not presumed to be secure and are susceptible to inference attacks. Existing inference attacks require training multiple shadow models, white-box knowledge of training models and auxiliary data preparation, which makes these attacks to be ineffective and infeasible. This paper proposes a model interpretation based label sniffing attack called MILSA, which does not interfere with learning of the main task but learns about the presence of a particular label in the target (participant’s) training model. MILSA uses Shapley based value functions for interpreting the training models to frame inference …",
+    pages = "139-154",
+    publisher = "Springer Nature Switzerland",
+    title = "MILSA: Model Interpretation Based Label Sniffing Attack in Federated Learning",
+    url = "https://link.springer.com/chapter/10.1007/978-3-031-23690-7\_8",
+    year = "2022"
+}
+</textarea>
+  <span class="copy-feedback" id="bibtex_2022_2-copied">✔ Copied!</span>
+</div>
+
+  </div>
+</details>
+<details class="pub-entry">
+ <summary>PassMon: a Technique for Password Generation and Strength Estimation<br><b style="color:#32a87b;">Journal of Network and Systems Management</b><br>Sanjay, Murmu, Harsh, Kasyap, Somanath, Tripathy</summary>
+  <div>
+<p><strong>Abstract:</strong> The password is the most prevalent and reliant mode of authentication by date. We often come across many websites with user registration pages having different password strength estimation techniques. Most of them run lightweight java-script-based rules on the client-side, while others take it to the server and evaluate. The same password is measured on different scales and is treated as invalid, weak, medium, or strong by different meters. These constraints compel users to choose weak passwords. The state-of-the-art password guessing and strength estimating techniques are trained on the publicly available leaked data sets. They are able to cope with the dictionary attacks but became prone to adversarial attacks. Creating dynamic rules for such attacks is tedious and infeasible. This paper proposes an ensemble approach with a classification and guessing strategy. We devise a bi-directional generative …</p>
+<p><a href="https://search.proquest.com/openview/f39b0ad68c2c7b619eb300a0c4155bb8/1?pq-origsite=gscholar&cbl=32329" target="_blank">🔗 View Paper</a></p>
+<p><strong>BibTeX:</strong></p>
+
+<div style="position: relative;">
+  <button class="copy-button" onclick="copyBibtex('bibtex_2022_3')">Copy</button>
+  <pre><code>@article{passmon_a_technique_for_password_generat_12,
+    author = &quot;Sanjay, Murmu and Harsh, Kasyap and Somanath, Tripathy&quot;,
+    abstract = &quot;The password is the most prevalent and reliant mode of authentication by date. We often come across many websites with user registration pages having different password strength estimation techniques. Most of them run lightweight java-script-based rules on the client-side, while others take it to the server and evaluate. The same password is measured on different scales and is treated as invalid, weak, medium, or strong by different meters. These constraints compel users to choose weak passwords. The state-of-the-art password guessing and strength estimating techniques are trained on the publicly available leaked data sets. They are able to cope with the dictionary attacks but became prone to adversarial attacks. Creating dynamic rules for such attacks is tedious and infeasible. This paper proposes an ensemble approach with a classification and guessing strategy. We devise a bi-directional generative …&quot;,
+    journal = &quot;Journal of Network and Systems Management&quot;,
+    number = &quot;1&quot;,
+    publisher = &quot;Springer Nature BV&quot;,
+    title = &quot;PassMon: a Technique for Password Generation and Strength Estimation&quot;,
+    url = &quot;https://search.proquest.com/openview/f39b0ad68c2c7b619eb300a0c4155bb8/1?pq-origsite=gscholar\&amp;cbl=32329&quot;,
+    volume = &quot;30&quot;,
+    year = &quot;2022&quot;
+}
+</code></pre>
+  <textarea id="bibtex_2022_3" style="position:absolute; left:-9999px;">@article{passmon_a_technique_for_password_generat_12,
+    author = "Sanjay, Murmu and Harsh, Kasyap and Somanath, Tripathy",
+    abstract = "The password is the most prevalent and reliant mode of authentication by date. We often come across many websites with user registration pages having different password strength estimation techniques. Most of them run lightweight java-script-based rules on the client-side, while others take it to the server and evaluate. The same password is measured on different scales and is treated as invalid, weak, medium, or strong by different meters. These constraints compel users to choose weak passwords. The state-of-the-art password guessing and strength estimating techniques are trained on the publicly available leaked data sets. They are able to cope with the dictionary attacks but became prone to adversarial attacks. Creating dynamic rules for such attacks is tedious and infeasible. This paper proposes an ensemble approach with a classification and guessing strategy. We devise a bi-directional generative …",
+    journal = "Journal of Network and Systems Management",
+    number = "1",
+    publisher = "Springer Nature BV",
+    title = "PassMon: a Technique for Password Generation and Strength Estimation",
+    url = "https://search.proquest.com/openview/f39b0ad68c2c7b619eb300a0c4155bb8/1?pq-origsite=gscholar\&cbl=32329",
+    volume = "30",
+    year = "2022"
+}
+</textarea>
+  <span class="copy-feedback" id="bibtex_2022_3-copied">✔ Copied!</span>
+</div>
+
+  </div>
+</details>
+<details class="pub-entry">
+ <summary>PassMon: a technique for password generation and strength estimation<br><b style="color:#32a87b;">Journal of Network and Systems Management</b><br>Murmu, Sanjay, <em style="color:blue;">Kasyap, Harsh</em>, Tripathy, Somanath</summary>
+  <div>
+<p><strong>Abstract:</strong> The password is the most prevalent and reliant mode of authentication by date. We often come across many websites with user registration pages having different password strength estimation techniques. Most of them run lightweight java-script-based rules on the client-side, while others take it to the server and evaluate. The same password is measured on different scales and is treated as invalid, weak, medium, or strong by different meters. These constraints compel users to choose weak passwords. The state-of-the-art password guessing and strength estimating techniques are trained on the publicly available leaked data sets. They are able to cope with the dictionary attacks but became prone to adversarial attacks. Creating dynamic rules for such attacks is tedious and infeasible. This paper proposes an ensemble approach with a classification and guessing strategy. We devise a bi-directional …</p>
+<p><a href="https://link.springer.com/article/10.1007/s10922-021-09620-w" target="_blank">🔗 View Paper</a></p>
+<p><strong>BibTeX:</strong></p>
+
+<div style="position: relative;">
+  <button class="copy-button" onclick="copyBibtex('bibtex_2022_4')">Copy</button>
+  <pre><code>@article{passmon_a_technique_for_password_generat_5,
+    author = &quot;Murmu, Sanjay and Kasyap, Harsh and Tripathy, Somanath&quot;,
+    abstract = &quot;The password is the most prevalent and reliant mode of authentication by date. We often come across many websites with user registration pages having different password strength estimation techniques. Most of them run lightweight java-script-based rules on the client-side, while others take it to the server and evaluate. The same password is measured on different scales and is treated as invalid, weak, medium, or strong by different meters. These constraints compel users to choose weak passwords. The state-of-the-art password guessing and strength estimating techniques are trained on the publicly available leaked data sets. They are able to cope with the dictionary attacks but became prone to adversarial attacks. Creating dynamic rules for such attacks is tedious and infeasible. This paper proposes an ensemble approach with a classification and guessing strategy. We devise a bi-directional …&quot;,
+    journal = &quot;Journal of Network and Systems Management&quot;,
+    pages = &quot;1-23&quot;,
+    publisher = &quot;Springer US&quot;,
+    title = &quot;PassMon: a technique for password generation and strength estimation&quot;,
+    url = &quot;https://link.springer.com/article/10.1007/s10922-021-09620-w&quot;,
+    volume = &quot;30&quot;,
+    year = &quot;2022&quot;
+}
+</code></pre>
+  <textarea id="bibtex_2022_4" style="position:absolute; left:-9999px;">@article{passmon_a_technique_for_password_generat_5,
+    author = "Murmu, Sanjay and Kasyap, Harsh and Tripathy, Somanath",
+    abstract = "The password is the most prevalent and reliant mode of authentication by date. We often come across many websites with user registration pages having different password strength estimation techniques. Most of them run lightweight java-script-based rules on the client-side, while others take it to the server and evaluate. The same password is measured on different scales and is treated as invalid, weak, medium, or strong by different meters. These constraints compel users to choose weak passwords. The state-of-the-art password guessing and strength estimating techniques are trained on the publicly available leaked data sets. They are able to cope with the dictionary attacks but became prone to adversarial attacks. Creating dynamic rules for such attacks is tedious and infeasible. This paper proposes an ensemble approach with a classification and guessing strategy. We devise a bi-directional …",
+    journal = "Journal of Network and Systems Management",
+    pages = "1-23",
+    publisher = "Springer US",
+    title = "PassMon: a technique for password generation and strength estimation",
+    url = "https://link.springer.com/article/10.1007/s10922-021-09620-w",
+    volume = "30",
+    year = "2022"
+}
+</textarea>
+  <span class="copy-feedback" id="bibtex_2022_4-copied">✔ Copied!</span>
+</div>
+
+  </div>
+</details>
+</div>
+</details>
+<details class="year-block" open>
+<summary>2021</summary>
+<div>
+<details class="pub-entry">
+ <summary>Collaborative Learning Based Effective<br><b style="color:#32a87b;">ECML PKDD 2020 Workshops: Workshops of the European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD 2020): SoGood 2020, PDFL 2020, MLCS 2020, NFMCP 2020, DINA 2020, EDML 2020, XKDD 2020 and INRA 2020, Ghent, Belgium, September 14–18, 2020, Proceedings</b><br>Singh, Narendra, <em style="color:blue;">Kasyap, Harsh</em>, Tripathy, Somanath</summary>
+  <div>
+<p><strong>Abstract:</strong> Malware is overgrowing, causing severe loss to different insti-tutions. The existing techniques, like static and dynamic analysis, fail to mitigate newly generated malware. Also, the signature, behavior, and anomaly-based defense mechanisms are susceptible to obfuscation and polymorphism attacks. With machine learning in practice, several authors proposed different classification and visualization techniques for malware detection. Images have proved worth analyzing the behavior of malware. Deep neural networks extract much information from it without having expert domain knowledge. On the other hand, the scarcity of diverse malware data available with clients, and their privacy concerns about sharing data with a centralized curator makes it challenging to build a more reliable model. This paper proposes a lightweight Convo-lution Neural Network (CNN) based model extracting relevant features using call graph, n-gram, and image transformations. Further, Auxiliary Classifier Generative Adversarial Network (AC-GAN) is used for generating unseen data for training purposes. The model is extended for federated setup to build an effective malware detection system. We have used the Microsoft malware dataset for training and evaluation. The result shows that the federated approach achieves the accuracy closer to centralized training while preserving data privacy at an individual organization.</p>
+<p><a href="https://books.google.com/books?hl=en&lr=&id=nhUZEAAAQBAJ&oi=fnd&pg=PA205&dq=info:H2wwrPFtclUJ:scholar.google.com&ots=Miz1u-h_B-&sig=dkYG3nM4obAZDplVe_pVNvitECg" target="_blank">🔗 View Paper</a></p>
+<p><strong>BibTeX:</strong></p>
+
+<div style="position: relative;">
+  <button class="copy-button" onclick="copyBibtex('bibtex_2021_0')">Copy</button>
+  <pre><code>@article{collaborative_learning_based_effective_19,
+    author = &quot;Singh, Narendra and Kasyap, Harsh and Tripathy, Somanath&quot;,
+    abstract = &quot;Malware is overgrowing, causing severe loss to different insti-tutions. The existing techniques, like static and dynamic analysis, fail to mitigate newly generated malware. Also, the signature, behavior, and anomaly-based defense mechanisms are susceptible to obfuscation and polymorphism attacks. With machine learning in practice, several authors proposed different classification and visualization techniques for malware detection. Images have proved worth analyzing the behavior of malware. Deep neural networks extract much information from it without having expert domain knowledge. On the other hand, the scarcity of diverse malware data available with clients, and their privacy concerns about sharing data with a centralized curator makes it challenging to build a more reliable model. This paper proposes a lightweight Convo-lution Neural Network (CNN) based model extracting relevant features using call graph, n-gram, and image transformations. Further, Auxiliary Classifier Generative Adversarial Network (AC-GAN) is used for generating unseen data for training purposes. The model is extended for federated setup to build an effective malware detection system. We have used the Microsoft malware dataset for training and evaluation. The result shows that the federated approach achieves the accuracy closer to centralized training while preserving data privacy at an individual organization.&quot;,
+    journal = &quot;ECML PKDD 2020 Workshops: Workshops of the European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD 2020): SoGood 2020, PDFL 2020, MLCS 2020, NFMCP 2020, DINA 2020, EDML 2020, XKDD 2020 and INRA 2020, Ghent, Belgium, September 14–18, 2020, Proceedings&quot;,
+    pages = &quot;205&quot;,
+    publisher = &quot;Springer Nature&quot;,
+    title = &quot;Collaborative Learning Based Effective&quot;,
+    url = &quot;https://books.google.com/books?hl=en\&amp;lr=\&amp;id=nhUZEAAAQBAJ\&amp;oi=fnd\&amp;pg=PA205\&amp;dq=info:H2wwrPFtclUJ:scholar.google.com\&amp;ots=Miz1u-h\_B-\&amp;sig=dkYG3nM4obAZDplVe\_pVNvitECg&quot;,
+    volume = &quot;1323&quot;,
+    year = &quot;2021&quot;
+}
+</code></pre>
+  <textarea id="bibtex_2021_0" style="position:absolute; left:-9999px;">@article{collaborative_learning_based_effective_19,
+    author = "Singh, Narendra and Kasyap, Harsh and Tripathy, Somanath",
+    abstract = "Malware is overgrowing, causing severe loss to different insti-tutions. The existing techniques, like static and dynamic analysis, fail to mitigate newly generated malware. Also, the signature, behavior, and anomaly-based defense mechanisms are susceptible to obfuscation and polymorphism attacks. With machine learning in practice, several authors proposed different classification and visualization techniques for malware detection. Images have proved worth analyzing the behavior of malware. Deep neural networks extract much information from it without having expert domain knowledge. On the other hand, the scarcity of diverse malware data available with clients, and their privacy concerns about sharing data with a centralized curator makes it challenging to build a more reliable model. This paper proposes a lightweight Convo-lution Neural Network (CNN) based model extracting relevant features using call graph, n-gram, and image transformations. Further, Auxiliary Classifier Generative Adversarial Network (AC-GAN) is used for generating unseen data for training purposes. The model is extended for federated setup to build an effective malware detection system. We have used the Microsoft malware dataset for training and evaluation. The result shows that the federated approach achieves the accuracy closer to centralized training while preserving data privacy at an individual organization.",
+    journal = "ECML PKDD 2020 Workshops: Workshops of the European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD 2020): SoGood 2020, PDFL 2020, MLCS 2020, NFMCP 2020, DINA 2020, EDML 2020, XKDD 2020 and INRA 2020, Ghent, Belgium, September 14–18, 2020, Proceedings",
+    pages = "205",
+    publisher = "Springer Nature",
+    title = "Collaborative Learning Based Effective",
+    url = "https://books.google.com/books?hl=en\&lr=\&id=nhUZEAAAQBAJ\&oi=fnd\&pg=PA205\&dq=info:H2wwrPFtclUJ:scholar.google.com\&ots=Miz1u-h\_B-\&sig=dkYG3nM4obAZDplVe\_pVNvitECg",
+    volume = "1323",
+    year = "2021"
+}
+</textarea>
+  <span class="copy-feedback" id="bibtex_2021_0-copied">✔ Copied!</span>
+</div>
+
+  </div>
+</details>
+<details class="pub-entry">
+ <summary>DNet: An efficient privacy-preserving distributed learning framework for healthcare systems<br><b style="color:#32a87b;">Distributed Computing and Internet Technology: 17th International Conference, ICDCIT 2021, Bhubaneswar, India, January 7–10, 2021, Proceedings 17</b><br>Kulkarni, Parth Parag, <em style="color:blue;">Kasyap, Harsh</em>, Tripathy, Somanath</summary>
+  <div>
+<p><strong>Abstract:</strong> Medical data held in silos by institutions, makes it challenging to predict new trends and gain insights, as, sharing individual data leaks user privacy and is restricted by law. Meanwhile, the Federated Learning framework [11] would solve this problem by facilitating on-device training while preserving privacy. However, the presence of a central server has its inherent problems, including a single point of failure and trust. Moreover, data may be prone to inference attacks. This paper presents a Distributed Net algorithm called DNet to address these issues posing its own set of challenges in terms of high communication latency, performance, and efficiency. Four different networks have been discussed and compared for computation, latency, and precision. Empirical analysis has been performed over Chest X-ray Images and COVID-19 dataset. The theoretical analysis proves our claim that the algorithm has a …</p>
+<p><a href="https://link.springer.com/chapter/10.1007/978-3-030-65621-8_9" target="_blank">🔗 View Paper</a></p>
+<p><strong>BibTeX:</strong></p>
+
+<div style="position: relative;">
+  <button class="copy-button" onclick="copyBibtex('bibtex_2021_1')">Copy</button>
+  <pre><code>@article{dnet_an_efficient_privacy_preserving_dis_9,
+    author = &quot;Kulkarni, Parth Parag and Kasyap, Harsh and Tripathy, Somanath&quot;,
+    abstract = &quot;Medical data held in silos by institutions, makes it challenging to predict new trends and gain insights, as, sharing individual data leaks user privacy and is restricted by law. Meanwhile, the Federated Learning framework [11] would solve this problem by facilitating on-device training while preserving privacy. However, the presence of a central server has its inherent problems, including a single point of failure and trust. Moreover, data may be prone to inference attacks. This paper presents a Distributed Net algorithm called DNet to address these issues posing its own set of challenges in terms of high communication latency, performance, and efficiency. Four different networks have been discussed and compared for computation, latency, and precision. Empirical analysis has been performed over Chest X-ray Images and COVID-19 dataset. The theoretical analysis proves our claim that the algorithm has a …&quot;,
+    conference = &quot;Distributed Computing and Internet Technology: 17th International Conference, ICDCIT 2021, Bhubaneswar, India, January 7–10, 2021, Proceedings 17&quot;,
+    pages = &quot;145-159&quot;,
+    publisher = &quot;Springer International Publishing&quot;,
+    title = &quot;DNet: An efficient privacy-preserving distributed learning framework for healthcare systems&quot;,
+    url = &quot;https://link.springer.com/chapter/10.1007/978-3-030-65621-8\_9&quot;,
+    year = &quot;2021&quot;
+}
+</code></pre>
+  <textarea id="bibtex_2021_1" style="position:absolute; left:-9999px;">@article{dnet_an_efficient_privacy_preserving_dis_9,
+    author = "Kulkarni, Parth Parag and Kasyap, Harsh and Tripathy, Somanath",
+    abstract = "Medical data held in silos by institutions, makes it challenging to predict new trends and gain insights, as, sharing individual data leaks user privacy and is restricted by law. Meanwhile, the Federated Learning framework [11] would solve this problem by facilitating on-device training while preserving privacy. However, the presence of a central server has its inherent problems, including a single point of failure and trust. Moreover, data may be prone to inference attacks. This paper presents a Distributed Net algorithm called DNet to address these issues posing its own set of challenges in terms of high communication latency, performance, and efficiency. Four different networks have been discussed and compared for computation, latency, and precision. Empirical analysis has been performed over Chest X-ray Images and COVID-19 dataset. The theoretical analysis proves our claim that the algorithm has a …",
+    conference = "Distributed Computing and Internet Technology: 17th International Conference, ICDCIT 2021, Bhubaneswar, India, January 7–10, 2021, Proceedings 17",
+    pages = "145-159",
+    publisher = "Springer International Publishing",
+    title = "DNet: An efficient privacy-preserving distributed learning framework for healthcare systems",
+    url = "https://link.springer.com/chapter/10.1007/978-3-030-65621-8\_9",
+    year = "2021"
+}
+</textarea>
+  <span class="copy-feedback" id="bibtex_2021_1-copied">✔ Copied!</span>
+</div>
+
+  </div>
+</details>
+<details class="pub-entry">
+ <summary>Moat: Model Agnostic Defense against Targeted Poisoning Attacks in Federated Learning<br><b style="color:#32a87b;">Information and Communications Security: 23rd International Conference, ICICS 2021, Chongqing, China, November 19-21, 2021, Proceedings, Part I 23</b><br>Manna, Arpan, <em style="color:blue;">Kasyap, Harsh</em>, Tripathy, Somanath</summary>
+  <div>
+<p><strong>Abstract:</strong> Federated learning has migrated data-driven learning to a model-centric approach. As the server does not have access to the data, the health of the data poses a concern. The malicious participation injects malevolent gradient updates to make the model maleficent. They do not impose an overall ill-behavior. Instead, they target a few classes or patterns to misbehave. Label Flipping and Backdoor attacks belong to targeted poisoning attacks performing adversarial manipulation for targeted misclassification. The state-of-the-art defenses based on statistical similarity or autoencoder credit scores suffer from the number of attackers or ingenious injection of backdoor noise. This paper proposes a universal model-agnostic defense technique (Moat) to mitigate different poisoning attacks in Federated Learning. It uses interpretation techniques to measure the marginal contribution of individual features. The …</p>
+<p><a href="https://link.springer.com/chapter/10.1007/978-3-030-86890-1_3" target="_blank">🔗 View Paper</a></p>
+<p><strong>BibTeX:</strong></p>
+
+<div style="position: relative;">
+  <button class="copy-button" onclick="copyBibtex('bibtex_2021_2')">Copy</button>
+  <pre><code>@article{moat_model_agnostic_defense_against_targ_3,
+    author = &quot;Manna, Arpan and Kasyap, Harsh and Tripathy, Somanath&quot;,
+    abstract = &quot;Federated learning has migrated data-driven learning to a model-centric approach. As the server does not have access to the data, the health of the data poses a concern. The malicious participation injects malevolent gradient updates to make the model maleficent. They do not impose an overall ill-behavior. Instead, they target a few classes or patterns to misbehave. Label Flipping and Backdoor attacks belong to targeted poisoning attacks performing adversarial manipulation for targeted misclassification. The state-of-the-art defenses based on statistical similarity or autoencoder credit scores suffer from the number of attackers or ingenious injection of backdoor noise. This paper proposes a universal model-agnostic defense technique (Moat) to mitigate different poisoning attacks in Federated Learning. It uses interpretation techniques to measure the marginal contribution of individual features. The …&quot;,
+    conference = &quot;Information and Communications Security: 23rd International Conference, ICICS 2021, Chongqing, China, November 19-21, 2021, Proceedings, Part I 23&quot;,
+    pages = &quot;38-55&quot;,
+    publisher = &quot;Springer International Publishing&quot;,
+    title = &quot;Moat: Model Agnostic Defense against Targeted Poisoning Attacks in Federated Learning&quot;,
+    url = &quot;https://link.springer.com/chapter/10.1007/978-3-030-86890-1\_3&quot;,
+    year = &quot;2021&quot;
+}
+</code></pre>
+  <textarea id="bibtex_2021_2" style="position:absolute; left:-9999px;">@article{moat_model_agnostic_defense_against_targ_3,
+    author = "Manna, Arpan and Kasyap, Harsh and Tripathy, Somanath",
+    abstract = "Federated learning has migrated data-driven learning to a model-centric approach. As the server does not have access to the data, the health of the data poses a concern. The malicious participation injects malevolent gradient updates to make the model maleficent. They do not impose an overall ill-behavior. Instead, they target a few classes or patterns to misbehave. Label Flipping and Backdoor attacks belong to targeted poisoning attacks performing adversarial manipulation for targeted misclassification. The state-of-the-art defenses based on statistical similarity or autoencoder credit scores suffer from the number of attackers or ingenious injection of backdoor noise. This paper proposes a universal model-agnostic defense technique (Moat) to mitigate different poisoning attacks in Federated Learning. It uses interpretation techniques to measure the marginal contribution of individual features. The …",
+    conference = "Information and Communications Security: 23rd International Conference, ICICS 2021, Chongqing, China, November 19-21, 2021, Proceedings, Part I 23",
+    pages = "38-55",
+    publisher = "Springer International Publishing",
+    title = "Moat: Model Agnostic Defense against Targeted Poisoning Attacks in Federated Learning",
+    url = "https://link.springer.com/chapter/10.1007/978-3-030-86890-1\_3",
+    year = "2021"
+}
+</textarea>
+  <span class="copy-feedback" id="bibtex_2021_2-copied">✔ Copied!</span>
+</div>
+
+  </div>
+</details>
+<details class="pub-entry">
+ <summary>Privacy-preserving decentralized learning framework for healthcare system<br><b style="color:#32a87b;">ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)</b><br><em style="color:blue;">Kasyap, Harsh</em>, Tripathy, Somanath</summary>
+  <div>
+<p><strong>Abstract:</strong> Clinical trials and drug discovery would not be effective without the collaboration of institutions. Earlier, it has been at the cost of individual’s privacy. Several pacts and compliances have been enforced to avoid data breaches. The existing schemes collect the participant’s data to a central repository for learning predictions as the collaboration is indispensable for research advances. The current COVID pandemic has put a question mark on our existing setup where the existing data repository has proved to be obsolete. There is a need for contemporary data collection, processing, and learning. The smartphones and devices held by the last person of the society have also made them a potential contributor. It demands to design a distributed and decentralized Collaborative Learning system that would make the knowledge inference from every data point. Federated Learning [21], proposed by Google, brings the …</p>
+<p><a href="https://dl.acm.org/doi/abs/10.1145/3426474" target="_blank">🔗 View Paper</a></p>
+<p><strong>BibTeX:</strong></p>
+
+<div style="position: relative;">
+  <button class="copy-button" onclick="copyBibtex('bibtex_2021_3')">Copy</button>
+  <pre><code>@article{privacy_preserving_decentralized_learnin_0,
+    author = &quot;Kasyap, Harsh and Tripathy, Somanath&quot;,
+    abstract = &quot;Clinical trials and drug discovery would not be effective without the collaboration of institutions. Earlier, it has been at the cost of individual’s privacy. Several pacts and compliances have been enforced to avoid data breaches. The existing schemes collect the participant’s data to a central repository for learning predictions as the collaboration is indispensable for research advances. The current COVID pandemic has put a question mark on our existing setup where the existing data repository has proved to be obsolete. There is a need for contemporary data collection, processing, and learning. The smartphones and devices held by the last person of the society have also made them a potential contributor. It demands to design a distributed and decentralized Collaborative Learning system that would make the knowledge inference from every data point. Federated Learning [21], proposed by Google, brings the …&quot;,
+    journal = &quot;ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)&quot;,
+    number = &quot;2s&quot;,
+    pages = &quot;1-24&quot;,
+    publisher = &quot;ACM&quot;,
+    title = &quot;Privacy-preserving decentralized learning framework for healthcare system&quot;,
+    url = &quot;https://dl.acm.org/doi/abs/10.1145/3426474&quot;,
+    volume = &quot;17&quot;,
+    year = &quot;2021&quot;
+}
+</code></pre>
+  <textarea id="bibtex_2021_3" style="position:absolute; left:-9999px;">@article{privacy_preserving_decentralized_learnin_0,
+    author = "Kasyap, Harsh and Tripathy, Somanath",
+    abstract = "Clinical trials and drug discovery would not be effective without the collaboration of institutions. Earlier, it has been at the cost of individual’s privacy. Several pacts and compliances have been enforced to avoid data breaches. The existing schemes collect the participant’s data to a central repository for learning predictions as the collaboration is indispensable for research advances. The current COVID pandemic has put a question mark on our existing setup where the existing data repository has proved to be obsolete. There is a need for contemporary data collection, processing, and learning. The smartphones and devices held by the last person of the society have also made them a potential contributor. It demands to design a distributed and decentralized Collaborative Learning system that would make the knowledge inference from every data point. Federated Learning [21], proposed by Google, brings the …",
+    journal = "ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)",
+    number = "2s",
+    pages = "1-24",
+    publisher = "ACM",
+    title = "Privacy-preserving decentralized learning framework for healthcare system",
+    url = "https://dl.acm.org/doi/abs/10.1145/3426474",
+    volume = "17",
+    year = "2021"
+}
+</textarea>
+  <span class="copy-feedback" id="bibtex_2021_3-copied">✔ Copied!</span>
+</div>
+
+  </div>
+</details>
+</div>
+</details>
+<details class="year-block" open>
+<summary>2020</summary>
+<div>
+<details class="pub-entry">
+ <summary>Collaborative learning based effective malware detection system<br><b style="color:#32a87b;">ECML PKDD 2020 Workshops: Workshops of the European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD 2020): SoGood 2020, PDFL 2020, MLCS 2020, NFMCP 2020, DINA 2020, EDML 2020, XKDD 2020 and INRA 2020, Ghent, Belgium, September 14–18, 2020, Proceedings</b><br>Singh, Narendra, <em style="color:blue;">Kasyap, Harsh</em>, Tripathy, Somanath</summary>
+  <div>
+<p><strong>Abstract:</strong> Malware is overgrowing, causing severe loss to different institutions. The existing techniques, like static and dynamic analysis, fail to mitigate newly generated malware. Also, the signature, behavior, and anomaly-based defense mechanisms are susceptible to obfuscation and polymorphism attacks. With machine learning in practice, several authors proposed different classification and visualization techniques for malware detection. Images have proved worth analyzing the behavior of malware. Deep neural networks extract much information from it without having expert domain knowledge. On the other hand, the scarcity of diverse malware data available with clients, and their privacy concerns about sharing data with a centralized curator makes it challenging to build a more reliable model. This paper proposes a lightweight Convolution Neural Network (CNN) based model extracting relevant features using …</p>
+<p><a href="https://link.springer.com/chapter/10.1007/978-3-030-65965-3_13" target="_blank">🔗 View Paper</a></p>
+<p><strong>BibTeX:</strong></p>
+
+<div style="position: relative;">
+  <button class="copy-button" onclick="copyBibtex('bibtex_2020_0')">Copy</button>
+  <pre><code>@article{collaborative_learning_based_effective_m_8,
+    author = &quot;Singh, Narendra and Kasyap, Harsh and Tripathy, Somanath&quot;,
+    abstract = &quot;Malware is overgrowing, causing severe loss to different institutions. The existing techniques, like static and dynamic analysis, fail to mitigate newly generated malware. Also, the signature, behavior, and anomaly-based defense mechanisms are susceptible to obfuscation and polymorphism attacks. With machine learning in practice, several authors proposed different classification and visualization techniques for malware detection. Images have proved worth analyzing the behavior of malware. Deep neural networks extract much information from it without having expert domain knowledge. On the other hand, the scarcity of diverse malware data available with clients, and their privacy concerns about sharing data with a centralized curator makes it challenging to build a more reliable model. This paper proposes a lightweight Convolution Neural Network (CNN) based model extracting relevant features using …&quot;,
+    conference = &quot;ECML PKDD 2020 Workshops: Workshops of the European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD 2020): SoGood 2020, PDFL 2020, MLCS 2020, NFMCP 2020, DINA 2020, EDML 2020, XKDD 2020 and INRA 2020, Ghent, Belgium, September 14–18, 2020, Proceedings&quot;,
+    pages = &quot;205-219&quot;,
+    publisher = &quot;Springer International Publishing&quot;,
+    title = &quot;Collaborative learning based effective malware detection system&quot;,
+    url = &quot;https://link.springer.com/chapter/10.1007/978-3-030-65965-3\_13&quot;,
+    year = &quot;2020&quot;
+}
+</code></pre>
+  <textarea id="bibtex_2020_0" style="position:absolute; left:-9999px;">@article{collaborative_learning_based_effective_m_8,
+    author = "Singh, Narendra and Kasyap, Harsh and Tripathy, Somanath",
+    abstract = "Malware is overgrowing, causing severe loss to different institutions. The existing techniques, like static and dynamic analysis, fail to mitigate newly generated malware. Also, the signature, behavior, and anomaly-based defense mechanisms are susceptible to obfuscation and polymorphism attacks. With machine learning in practice, several authors proposed different classification and visualization techniques for malware detection. Images have proved worth analyzing the behavior of malware. Deep neural networks extract much information from it without having expert domain knowledge. On the other hand, the scarcity of diverse malware data available with clients, and their privacy concerns about sharing data with a centralized curator makes it challenging to build a more reliable model. This paper proposes a lightweight Convolution Neural Network (CNN) based model extracting relevant features using …",
+    conference = "ECML PKDD 2020 Workshops: Workshops of the European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD 2020): SoGood 2020, PDFL 2020, MLCS 2020, NFMCP 2020, DINA 2020, EDML 2020, XKDD 2020 and INRA 2020, Ghent, Belgium, September 14–18, 2020, Proceedings",
+    pages = "205-219",
+    publisher = "Springer International Publishing",
+    title = "Collaborative learning based effective malware detection system",
+    url = "https://link.springer.com/chapter/10.1007/978-3-030-65965-3\_13",
+    year = "2020"
+}
+</textarea>
+  <span class="copy-feedback" id="bibtex_2020_0-copied">✔ Copied!</span>
+</div>
+
+  </div>
+</details>
+<details class="pub-entry">
+ <summary>DNet: An Efficient Privacy-Preserving<br><b style="color:#32a87b;">Distributed Computing and Internet Technology: 17th International Conference, ICDCIT 2021, Bhubaneswar, India, January 7–10, 2021, Proceedings</b><br>Kulkarni, Parth Parag, <em style="color:blue;">Kasyap, Harsh</em>, Tripathy, Somanath</summary>
+  <div>
+<p><strong>Abstract:</strong> Medical data held in silos by institutions, makes it challeng-ing to predict new trends and gain insights, as, sharing individual data leaks user privacy and is restricted by law. Meanwhile, the Federated Learning framework [11] would solve this problem by facilitating on-device training while preserving privacy. However, the presence of a central server has its inherent problems, including a single point of failure and trust. Moreover, data may be prone to inference attacks. This paper presents a Distributed Net algorithm called DNet to address these issues posing its own set of challenges in terms of high communication latency, performance, and efficiency. Four different networks have been discussed and compared for computation, latency, and precision. Empirical analysis has been performed over Chest X-ray Images and COVID-19 dataset. The theoretical analysis proves our claim that the algorithm has a lower communication latency and provides an upper bound.</p>
+<p><a href="https://books.google.com/books?hl=en&lr=&id=VYkOEAAAQBAJ&oi=fnd&pg=PA145&dq=info:gBbtijIFISgJ:scholar.google.com&ots=Oosvon81WW&sig=93CHqKR0QO9o8UGficlABb7-x4Q" target="_blank">🔗 View Paper</a></p>
+<p><strong>BibTeX:</strong></p>
+
+<div style="position: relative;">
+  <button class="copy-button" onclick="copyBibtex('bibtex_2020_1')">Copy</button>
+  <pre><code>@article{dnet_an_efficient_privacy_preserving_20,
+    author = &quot;Kulkarni, Parth Parag and Kasyap, Harsh and Tripathy, Somanath&quot;,
+    abstract = &quot;Medical data held in silos by institutions, makes it challeng-ing to predict new trends and gain insights, as, sharing individual data leaks user privacy and is restricted by law. Meanwhile, the Federated Learning framework [11] would solve this problem by facilitating on-device training while preserving privacy. However, the presence of a central server has its inherent problems, including a single point of failure and trust. Moreover, data may be prone to inference attacks. This paper presents a Distributed Net algorithm called DNet to address these issues posing its own set of challenges in terms of high communication latency, performance, and efficiency. Four different networks have been discussed and compared for computation, latency, and precision. Empirical analysis has been performed over Chest X-ray Images and COVID-19 dataset. The theoretical analysis proves our claim that the algorithm has a lower communication latency and provides an upper bound.&quot;,
+    journal = &quot;Distributed Computing and Internet Technology: 17th International Conference, ICDCIT 2021, Bhubaneswar, India, January 7–10, 2021, Proceedings&quot;,
+    pages = &quot;145&quot;,
+    publisher = &quot;Springer Nature&quot;,
+    title = &quot;DNet: An Efficient Privacy-Preserving&quot;,
+    url = &quot;https://books.google.com/books?hl=en\&amp;lr=\&amp;id=VYkOEAAAQBAJ\&amp;oi=fnd\&amp;pg=PA145\&amp;dq=info:gBbtijIFISgJ:scholar.google.com\&amp;ots=Oosvon81WW\&amp;sig=93CHqKR0QO9o8UGficlABb7-x4Q&quot;,
+    volume = &quot;12582&quot;,
+    year = &quot;2020&quot;
+}
+</code></pre>
+  <textarea id="bibtex_2020_1" style="position:absolute; left:-9999px;">@article{dnet_an_efficient_privacy_preserving_20,
+    author = "Kulkarni, Parth Parag and Kasyap, Harsh and Tripathy, Somanath",
+    abstract = "Medical data held in silos by institutions, makes it challeng-ing to predict new trends and gain insights, as, sharing individual data leaks user privacy and is restricted by law. Meanwhile, the Federated Learning framework [11] would solve this problem by facilitating on-device training while preserving privacy. However, the presence of a central server has its inherent problems, including a single point of failure and trust. Moreover, data may be prone to inference attacks. This paper presents a Distributed Net algorithm called DNet to address these issues posing its own set of challenges in terms of high communication latency, performance, and efficiency. Four different networks have been discussed and compared for computation, latency, and precision. Empirical analysis has been performed over Chest X-ray Images and COVID-19 dataset. The theoretical analysis proves our claim that the algorithm has a lower communication latency and provides an upper bound.",
+    journal = "Distributed Computing and Internet Technology: 17th International Conference, ICDCIT 2021, Bhubaneswar, India, January 7–10, 2021, Proceedings",
+    pages = "145",
+    publisher = "Springer Nature",
+    title = "DNet: An Efficient Privacy-Preserving",
+    url = "https://books.google.com/books?hl=en\&lr=\&id=VYkOEAAAQBAJ\&oi=fnd\&pg=PA145\&dq=info:gBbtijIFISgJ:scholar.google.com\&ots=Oosvon81WW\&sig=93CHqKR0QO9o8UGficlABb7-x4Q",
+    volume = "12582",
+    year = "2020"
+}
+</textarea>
+  <span class="copy-feedback" id="bibtex_2020_1-copied">✔ Copied!</span>
+</div>
+
+  </div>
+</details>
+</div>
+</details>
+</div>

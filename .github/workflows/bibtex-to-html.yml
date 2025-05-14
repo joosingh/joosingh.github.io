@@ -1,0 +1,36 @@
+name: Convert BibTeX to HTML
+
+on:
+  push:
+    paths:
+      - 'assets/data/publications.bib'
+      - 'scripts/bibtex_to_html.py'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Python dependencies
+        run: |
+          pip install pybtex bibtexparser beautifulsoup4
+
+      - name: Convert BibTeX to HTML
+        run: |
+          python scripts/bibtex_to_html.py assets/data/publications.bib > _includes/publications.html
+
+      - name: Commit HTML file
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _includes/publications.html
+          git commit -m "Auto-update publications.html from BibTeX" || echo "No changes to commit"
+          git push

@@ -7,7 +7,7 @@ title: Contact
 
 Email: juhis@andrew.cmu.edu, juhis0071@gmail.com
 
-Office: -
+Office: - 844 Mellon Institute, Carnegie Mellon University, Pittsburgh, PA, USA
 
 [Link to my CV](https://drive.google.com/file/d/1A1OCHnr8UWBa9ibD8R8BDxZ4w0wDf7X-/view?usp=share_link)
 

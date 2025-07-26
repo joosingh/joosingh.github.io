@@ -100,7 +100,7 @@ title: Timeline
 
 <div class="timeline">
 
-  <div class="timeline-entry right">
+  <div class="timeline-entry left">
     <div class="content">
        <div class="date">2013 - 2018</div>
       <h3>Undergraduate and Postgraduate - IIT(BHU) Varanasi</h3>

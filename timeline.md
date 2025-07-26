@@ -111,7 +111,7 @@ title: Timeline
    <div class="timeline-entry left">
     <div class="content">
       <div class="date">2017</div>
-      <h3>Undergraduate Research Intern- University of Leipzig, Germany/h3>
+      <h3>Research Intern- University of Leipzig, Germany</h3>
       <p>DAAD - Working Internship in Science and Engineering (WISE)</p>
     </div>
   </div>

@@ -121,7 +121,7 @@ title: Timeline
     <div class="content">
       <div class="date">2018 – 2022</div>
       <h3>Doctor of Philosphy - NTU Singapore</h3>
-      <p>Design and characterization of adhesive platforms for localized disease management</p>
+      <p>Adhesive platforms for localized disease management</p>
     </div>
   </div>
 
@@ -129,7 +129,7 @@ title: Timeline
     <div class="content">
       <div class="date">Nov 2022 - Aug 2025</div>
       <h3>Postdoctoral Research Associate - Carnegie Mellon University, USA</h3>
-      <p>Biomaterials design using polymer chemistry for bone and cartilage regeneration</p>
+      <p>Biomaterials design using synthetic tools for bone and cartilage regeneration</p>
     </div>
   </div>
   
@@ -137,7 +137,7 @@ title: Timeline
     <div class="content">
       <div class="date">September 2025</div>
       <h3>Incoming Inspire Faculty Fellow - Indian Institute of Science, Bangalore, India</h3>
-      <p>Design of cell-instructive biomaterials and coatings</p>
+      <p>Cell-instructive biomaterials and antimicrobial coatings</p>
     </div>
   </div>
   

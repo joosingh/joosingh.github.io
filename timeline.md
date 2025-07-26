@@ -104,7 +104,15 @@ title: Timeline
     <div class="content">
       <div class="date">2013 – 2018</div>
       <h3>Undergraduate and Postgraduate - IIT (BHU) Varanasi</h3>
-      <p>Pharmacy</p>
+      <p>Integrated Dual Degree, Pharmacy</p>
+    </div>
+  </div>
+
+    <div class="timeline-entry right">
+    <div class="content">
+      <div class="date">2017</div>
+      <h3>Undergraduate Research- University of Leipzig</h3>
+      <p>DAAD WISE</p>
     </div>
   </div>
 

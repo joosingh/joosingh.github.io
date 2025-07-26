@@ -108,11 +108,11 @@ title: Timeline
     </div>
   </div>
 
-    <div class="timeline-entry right">
+   <div class="timeline-entry left">
     <div class="content">
       <div class="date">2017</div>
-      <h3>Undergraduate Research- University of Leipzig</h3>
-      <p>DAAD WISE</p>
+      <h3>Undergraduate Research Intern- University of Leipzig, Germany/h3>
+      <p>DAAD - Working Internship in Science and Engineering (WISE)</p>
     </div>
   </div>
 

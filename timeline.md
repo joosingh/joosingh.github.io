@@ -108,7 +108,7 @@ title: Timeline
     </div>
   </div>
 
-   <div class="timeline-entry left">
+   <div class="timeline-entry right">
     <div class="content">
       <div class="date">2017</div>
       <h3>Research Intern- University of Leipzig, Germany</h3>
@@ -116,7 +116,7 @@ title: Timeline
     </div>
   </div>
 
-  <div class="timeline-entry right">
+  <div class="timeline-entry left">
     <div class="content">
       <div class="date">2018 – 2022</div>
       <h3>Doctor of Philosphy - NTU Singapore</h3>
@@ -124,7 +124,7 @@ title: Timeline
     </div>
   </div>
 
-  <div class="timeline-entry left">
+  <div class="timeline-entry right">
     <div class="content">
       <div class="date">Since Nov 2022</div>
       <h3>Postdoctoral Research Associate - Carnegie Mellon University, USA</h3>

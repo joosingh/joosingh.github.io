@@ -12,4 +12,4 @@ Office: - 844 Mellon Institute, Carnegie Mellon University, Pittsburgh, PA, USA
 [Link to my CV](https://drive.google.com/file/d/1A1OCHnr8UWBa9ibD8R8BDxZ4w0wDf7X-/view?usp=share_link)
 
 <h2>Book a Meeting with Me</h2>
-<p>I'm happy to chat! Choose a time that works for you below:</p>
+<p>I'm happy to chat! Please drop me an email and we can schedule a time that works :D</p>

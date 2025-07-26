@@ -102,7 +102,7 @@ title: Timeline
 
   <div class="timeline-entry left">
     <div class="content">
-      <div class="date">2013 – 2018</div>
+       <div class="date">2013 - 2018</div>
       <h3>Undergraduate and Postgraduate - IIT (BHU) Varanasi</h3>
       <p>Integrated Dual Degree, Pharmacy</p>
     </div>

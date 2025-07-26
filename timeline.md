@@ -105,6 +105,7 @@ title: Timeline
        <div class="date">2013 - 2018</div>
       <h3>Undergraduate and Postgraduate - IIT (BHU) Varanasi</h3>
       <p>Integrated Dual Degree, Pharmacy</p>
+            <p>Design of polymeric drug delivery systems</p>
     </div>
   </div>
 
@@ -120,7 +121,7 @@ title: Timeline
     <div class="content">
       <div class="date">2018 – 2022</div>
       <h3>Doctor of Philosphy - NTU Singapore</h3>
-      <p>Biomaterials</p>
+      <p>Design and characterization of adhesive platforms for localized disease management</p>
     </div>
   </div>
 
@@ -128,7 +129,7 @@ title: Timeline
     <div class="content">
       <div class="date">Nov 2022 - Aug 2025</div>
       <h3>Postdoctoral Research Associate - Carnegie Mellon University, USA</h3>
-      <p>Working on Biomaterials design using polymer chemistry</p>
+      <p>Biomaterials design using polymer chemistry for bone and cartilage regeneration</p>
     </div>
   </div>
   

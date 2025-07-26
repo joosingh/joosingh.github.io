@@ -126,11 +126,18 @@ title: Timeline
 
   <div class="timeline-entry right">
     <div class="content">
-      <div class="date">Since Nov 2022</div>
+      <div class="date">Nov 2022 - Aug 2025</div>
       <h3>Postdoctoral Research Associate - Carnegie Mellon University, USA</h3>
       <p>Working on Biomaterials design using polymer chemistry</p>
     </div>
   </div>
-
+  
+  <div class="timeline-entry left">
+    <div class="content">
+      <div class="date">September 2025</div>
+      <h3>Incoming Inspire Faculty Fellow - Indian Institute of Science, Bangalore, India</h3>
+      <p>Design of cell-instructive biomaterials and coatings</p>
+    </div>
+  </div>
   
 </div>

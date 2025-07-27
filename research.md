@@ -66,7 +66,7 @@ control in bone cement</a><br>
   </div>
 
    <div class="research-item">
-    <img src="/assets/images/bone.png" alt="Work2">
+    <img src="/assets/images/cartilage.jpg" alt="Work2">
     <h5>Cartilage Mimic Hydrogels for Cartilage Regeneration</h5>
     <p> <ul style="font-size:12px; line-height:1.6; padding-left: 20px;"> Cartilage has minimal regenerative capacity, and in osteoarthritis, progressive cartilage degradation leads to bone-on-bone contact, chronic inflammation, and joint degeneration. Existing treatment options fail to restore native cartilage structure and mechanics. </ul> </p>
     <p style="font-size:12px; line-height:1.6;">
@@ -82,16 +82,7 @@ sulfate and synthetic polypeptides for cartilage tissue engineering</a><br>
     </div>
   </div>
 
-  <div class="research-item">
-    <img src="/assets/images/antimicrobial.png" alt="Work2">
-    <h3>Area 2</h3>
-    <p>
-      explanation 2.
-    </p>
-    <div class="papers">
-      📄 <a href="https://doi.org/your-paper3" target="_blank">Paper 2</a>
-    </div>
-  </div>
+
 
   <div class="research-item">
     <img src="/assets/images/dummy3.jpg" alt="Work3">

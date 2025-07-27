@@ -58,8 +58,8 @@ I am teaching/have taught following courses:
     </li>
     
     <li>
-      <strong>Global Sustainability & Health Leadership (GP/IH7002)</strong><br><span style="float:right;">2022</span>
-      Teaching Assistant, Graduate College - APRU, Nanyang Technological University <span style="float:right;">Fall 2022</span>
+      <strong>Global Sustainability & Health Leadership (GP/IH7002)<span style="float:right;">Fall 2022</span></strong><br>
+      Teaching Assistant, Graduate College - APRU, Nanyang Technological University
       <ul>
         <li>Course management, lecture scheduling, liaise with speakers</li>
         <li>Conduct tutorials, discussion sessions, assessment & grading</li>

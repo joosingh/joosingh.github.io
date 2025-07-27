@@ -82,11 +82,11 @@ title: Timeline
   }
 
   .timeline-entry.left .logo {
-    right: -70px;
+    right: -100px;
   }
 
   .timeline-entry.right .logo {
-    left: -70px;
+    left: -100px;
   }
 
   @media screen and (max-width: 768px) {

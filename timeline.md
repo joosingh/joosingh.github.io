@@ -76,17 +76,17 @@ title: Timeline
   .logo {
     position: absolute;
     top: 1rem;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     object-fit: contain;
   }
 
   .timeline-entry.left .logo {
-    right: -100px;
+    right: -200px;
   }
 
   .timeline-entry.right .logo {
-    left: -100px;
+    left: -200px;
   }
 
   @media screen and (max-width: 768px) {

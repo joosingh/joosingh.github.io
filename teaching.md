@@ -26,8 +26,8 @@ title: Teaching
 I am teaching/have taught following courses:
 <ul>
     <li>
-      <strong>The Molecular Basis of Polymer Mechanics (09-760)</strong><br>
-      Co-lecturer with Prof. Stefanie Sydlik, Department of Chemistry, Carnegie Mellon University <span style="float:right;">Spring 2023</span>
+      <strong>The Molecular Basis of Polymer Mechanics (09-760)</strong><br> <span style="float:right;">Spring 2023</span>
+      Co-lecturer with Prof. Stefanie Sydlik, Department of Chemistry, Carnegie Mellon University
       <ul>
         <li>Lectures taught: Intro to mechanical properties; Thermosets, hydrogels & composites</li>
         <li>Labs conducted: Polymer synthesis; Polymer Characterization using GPC, NMR, DSC, TGA, DMA</li>
@@ -35,8 +35,8 @@ I am teaching/have taught following courses:
     </li>
     
     <li>
-      <strong>Polymer Technology (MS4620)</strong><br>
-      Teaching Assistant, School of Materials Science & Engineering, NTU <span style="float:right;">Fall 2021</span>
+      <strong>Polymer Technology (MS4620)</strong><br><span style="float:right;">Fall 2021</span>
+      Teaching Assistant, School of Materials Science & Engineering, NTU 
       <ul>
         <li>Conduct tutorials, assessment & grading</li>
         <li>Design evaluation content</li>
@@ -44,8 +44,8 @@ I am teaching/have taught following courses:
     </li>
     
     <li>
-      <strong>Biomedical Nanotechnology (BG4215)</strong><br>
-      Teaching Assistant, School of Chemistry, Chemical Engineering & Biotechnology, NTU <span style="float:right;">Fall 2019–2021</span>
+      <strong>Biomedical Nanotechnology (BG4215)</strong><br><span style="float:right;">Fall 2019–2021</span>
+      Teaching Assistant, School of Chemistry, Chemical Engineering & Biotechnology, NTU 
       <ul>
         <li>Design experiment & lab manual for Protein Analysis lab</li>
         <li>Design experiment for PCR lab</li>
@@ -54,7 +54,7 @@ I am teaching/have taught following courses:
     </li>
     
     <li>
-      <strong>Global Sustainability & Health Leadership (GP/IH7002)</strong><br>
+      <strong>Global Sustainability & Health Leadership (GP/IH7002)</strong><br><span style="float:right;">2022</span>
       Teaching Assistant, Graduate College - APRU, Nanyang Technological University <span style="float:right;">2022</span>
       <ul>
         <li>Course management, lecture scheduling, liaise with speakers</li>
@@ -66,8 +66,6 @@ I am teaching/have taught following courses:
   <p><a href="#" target="_blank">Certified</a> as Teaching Assistant by Teaching, Learning and Pedagogy Dept, NTU Singapore <span style="float:right;">2019</span></p>
 </section>
 
-}
-</style>
 
 
 <!-- Machine Learning- Operating Systems- Data Structures -->

@@ -49,7 +49,7 @@ My research interests lie in the areas of ...
 <div class="research-grid">
 
   <div class="research-item">
-    <img src="/assets/images/dummy1.jpg" alt="Federated Learning Attack">
+    <img src="/assets/images/bone.png" alt="Federated Learning Attack">
     <h3>Area 1</h3>
     <p>
       Explanation 1.
@@ -61,13 +61,25 @@ My research interests lie in the areas of ...
   </div>
 
   <div class="research-item">
-    <img src="/assets/images/dummy2.jpg" alt="Secure Name Matching">
+    <img src="/assets/images/bone.jpg" alt="Secure Name Matching">
     <h3>Area 2</h3>
     <p>
       explanation 2.
     </p>
     <div class="papers">
       📄 <a href="https://doi.org/your-paper3" target="_blank">Paper 2</a>
+    </div>
+  </div>
+
+div class="research-item">
+    <img src="/assets/images/dummy3.jpg" alt="Federated Learning Attack">
+    <h3>Area 3</h3>
+    <p>
+      Explanation 3.
+    </p>
+    <div class="papers">
+      📄 <a href="https://doi.org/your-paper1" target="_blank">Paper title</a><br>
+      📄 <a href="https://doi.org/your-paper2" target="_blank">Paper Title</a>
     </div>
   </div>
 

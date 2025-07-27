@@ -22,7 +22,7 @@ title: Teaching
   margin-bottom: 15px;
 }
 #teaching-mentorship li {
-  font-size: 14px; /* Adjust this value as needed */
+  font-size: 12px; /* Adjust this value as needed */
   line-height: 1.5; /* Improves readability */
 }
 </style>
@@ -30,7 +30,7 @@ title: Teaching
 I am teaching/have taught following courses:
 <ul>
     <li>
-      <strong>The Molecular Basis of Polymer Mechanics (09-760)</strong><br> <span style="float:right;">Spring 2023</span>
+      <strong>The Molecular Basis of Polymer Mechanics (09-760) <span style="float:right;">Spring 2023</span></strong><br> 
       Co-lecturer with Prof. Stefanie Sydlik, Department of Chemistry, Carnegie Mellon University
       <ul>
         <li>Lectures taught: Intro to mechanical properties; Thermosets, hydrogels & composites</li>
@@ -39,7 +39,7 @@ I am teaching/have taught following courses:
     </li>
     
     <li>
-      <strong>Polymer Technology (MS4620)</strong><br><span style="float:right;">Fall 2021</span>
+      <strong>Polymer Technology (MS4620)<span style="float:right;">Fall 2021</span></strong><br>
       Teaching Assistant, School of Materials Science & Engineering, NTU 
       <ul>
         <li>Conduct tutorials, assessment & grading</li>
@@ -48,7 +48,7 @@ I am teaching/have taught following courses:
     </li>
     
     <li>
-      <strong>Biomedical Nanotechnology (BG4215)</strong><br><span style="float:right;">Fall 2019–2021</span>
+      <strong>Biomedical Nanotechnology (BG4215)<span style="float:right;">Fall 2019–2021</span></strong><br>
       Teaching Assistant, School of Chemistry, Chemical Engineering & Biotechnology, NTU 
       <ul>
         <li>Design experiment & lab manual for Protein Analysis lab</li>

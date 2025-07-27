@@ -18,13 +18,13 @@ title: Teaching
   list-style-type: disc;
   padding-left: 20px;
 }
-#teaching-mentorship li {
+
+  #teaching-mentorship li {
   margin-bottom: 15px;
+  font-size: 12px;  /* Try 12px or 14px if 10px is too small */
+  line-height: 1.5;
 }
-#teaching-mentorship li {
-  font-size: 10px; /* Adjust this value as needed */
-  line-height: 1.5; /* Improves readability */
-}
+
 </style>
 
 I am teaching/have taught following courses:

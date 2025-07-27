@@ -21,7 +21,7 @@ title: Teaching
 
   #teaching-mentorship li {
   margin-bottom: 15px;
-  font-size: 10px;  /* Try 12px or 14px if 10px is too small */
+  font-size: 8px;  /* Try 12px or 14px if 10px is too small */
   line-height: 1.5;
 }
 

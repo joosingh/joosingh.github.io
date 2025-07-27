@@ -21,6 +21,10 @@ title: Teaching
 #teaching-mentorship li {
   margin-bottom: 15px;
 }
+#teaching-mentorship li {
+  font-size: 14px; /* Adjust this value as needed */
+  line-height: 1.5; /* Improves readability */
+}
 </style>
 
 I am teaching/have taught following courses:

@@ -76,8 +76,8 @@ title: Timeline
   .logo {
     position: absolute;
     top: 1rem;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     object-fit: contain;
   }
 

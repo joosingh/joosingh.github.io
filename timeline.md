@@ -120,7 +120,7 @@ title: Timeline
 <div class="timeline">
 
   <div class="timeline-entry left">
-    <img src="/assets/images/bone.png" alt="IIT BHU Logo" class="logo" />
+    <img src="/assets/images/BHU.png" alt="IIT BHU Logo" class="logo" />
     <div class="content">
       <div class="date">2013 - 2018</div>
       <h3>Undergraduate and Postgraduate - IIT(BHU) Varanasi</h3>
@@ -130,7 +130,7 @@ title: Timeline
   </div>
 
   <div class="timeline-entry right">
-    <img src="/assets/images/leipzig_logo.png" alt="Leipzig Logo" class="logo" />
+    <img src="/assets/images/Leipzig.png" alt="Leipzig Logo" class="logo" />
     <div class="content">
       <div class="date">2017</div>
       <h3>Research Intern - University of Leipzig, Germany</h3>
@@ -139,7 +139,7 @@ title: Timeline
   </div>
 
   <div class="timeline-entry left">
-    <img src="/assets/images/ntu_logo.png" alt="NTU Logo" class="logo" />
+    <img src="/assets/images/NTU.png" alt="NTU Logo" class="logo" />
     <div class="content">
       <div class="date">2018 – 2022</div>
       <h3>Doctor of Philosophy - NTU Singapore</h3>
@@ -148,7 +148,7 @@ title: Timeline
   </div>
 
   <div class="timeline-entry right">
-    <img src="/assets/images/cmu_logo.png" alt="CMU Logo" class="logo" />
+    <img src="/assets/images/CMU.jpg" alt="CMU Logo" class="logo" />
     <div class="content">
       <div class="date">Nov 2022 - Aug 2025</div>
       <h3>Postdoctoral Research Associate - Carnegie Mellon University, USA</h3>
@@ -157,7 +157,7 @@ title: Timeline
   </div>
 
   <div class="timeline-entry left">
-    <img src="/assets/images/iisc_logo.png" alt="IISc Logo" class="logo" />
+    <img src="/assets/images/IISc.png" alt="IISc Logo" class="logo" />
     <div class="content">
       <div class="date">September 2025</div>
       <h3>Incoming Inspire Faculty Fellow - Indian Institute of Science, Bangalore, India</h3>

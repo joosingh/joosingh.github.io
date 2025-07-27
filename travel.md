@@ -72,16 +72,16 @@ title: Travel
 </style>
 
 <div class="travel-grid">
-  <div class="country-card" style="background-image: url('/assets/travel/usa/nyc.jpg');" onclick="showPhotos('usa')">
+  <div class="country-card" style="background-image: url('/assets/travels/USA/nyc1.jpeg');" onclick="showPhotos('USA')">
     <div class="country-name">USA</div>
   </div>
-  <div class="country-card" style="background-image: url('/assets/travel/thailand/bangkok.jpg');" onclick="showPhotos('thailand')">
+  <div class="country-card" style="background-image: url('/assets/travels/thailand/bangkok.jpg');" onclick="showPhotos('thailand')">
     <div class="country-name">Thailand</div>
   </div>
-  <div class="country-card" style="background-image: url('/assets/travel/germany/berlin.jpg');" onclick="showPhotos('germany')">
+  <div class="country-card" style="background-image: url('/assets/travels/germany/berlin.jpg');" onclick="showPhotos('germany')">
     <div class="country-name">Germany</div>
   </div>
-  <div class="country-card" style="background-image: url('/assets/travel/singapore/marina_bay.jpg');" onclick="showPhotos('singapore')">
+  <div class="country-card" style="background-image: url('/assets/travels/singapore/marina_bay.jpg');" onclick="showPhotos('singapore')">
     <div class="country-name">Singapore</div>
   </div>
 </div>
@@ -89,21 +89,21 @@ title: Travel
 <!-- Country Photo Sections -->
 
 <div id="usa" class="country-photos">
-  <div class="photo-card"><img src="/assets/travel/usa/nyc.jpg" alt="New York"></div>
-  <div class="photo-card"><img src="/assets/travel/usa/yosemite.jpg" alt="Yosemite"></div>
+  <div class="photo-card"><img src="/assets/travels/USA/nyc1.jpeg" alt="New York"></div>
+  <div class="photo-card"><img src="/assets/travels/USA/nyc2.jpeg" alt="**Yosemite**"></div>
 </div>
 
 <div id="thailand" class="country-photos">
-  <div class="photo-card"><img src="/assets/travel/thailand/bangkok.jpg" alt="Bangkok"></div>
-  <div class="photo-card"><img src="/assets/travel/thailand/phuket.jpg" alt="Phuket"></div>
+  <div class="photo-card"><img src="/assets/travels/thailand/bangkok.jpg" alt="Bangkok"></div>
+  <div class="photo-card"><img src="/assets/travels/thailand/phuket.jpg" alt="Phuket"></div>
 </div>
 
 <div id="germany" class="country-photos">
-  <div class="photo-card"><img src="/assets/travel/germany/berlin.jpg" alt="Berlin"></div>
+  <div class="photo-card"><img src="/assets/travels/germany/berlin.jpg" alt="Berlin"></div>
 </div>
 
 <div id="singapore" class="country-photos">
-  <div class="photo-card"><img src="/assets/travel/singapore/marina_bay.jpg" alt="Marina Bay"></div>
+  <div class="photo-card"><img src="/assets/travels/singapore/marina_bay.jpg" alt="Marina Bay"></div>
 </div>
 
 <script>

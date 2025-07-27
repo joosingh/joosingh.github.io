@@ -19,11 +19,11 @@ title: Teaching
   padding-left: 20px;
 }
 
-  #teaching-mentorship li {
-  margin-bottom: 15px;
-  font-size: 8px;  /* Try 12px or 14px if 10px is too small */
-  line-height: 1.5;
+section#teaching-mentorship li {
+  font-size: 12px !important;
+  line-height: 1.5 !important;
 }
+
 
 </style>
 

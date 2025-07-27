@@ -49,7 +49,7 @@ My research interests lie in the areas of ...
 <div class="research-grid">
 
   <div class="research-item">
-    <img src="/assets/images/bone.png" alt="Federated Learning Attack">
+    <img src="/assets/images/bone.png" alt="Work1">
     <h3>Area 1</h3>
     <p>
       Explanation 1.
@@ -61,7 +61,7 @@ My research interests lie in the areas of ...
   </div>
 
   <div class="research-item">
-    <img src="/assets/images/bone.jpg" alt="Secure Name Matching">
+    <img src="/assets/images/profile.JPG" alt="Work2">
     <h3>Area 2</h3>
     <p>
       explanation 2.
@@ -72,7 +72,7 @@ My research interests lie in the areas of ...
   </div>
 
 div class="research-item">
-    <img src="/assets/images/dummy3.jpg" alt="Federated Learning Attack">
+    <img src="/assets/images/dummy3.jpg" alt="Work3">
     <h3>Area 3</h3>
     <p>
       Explanation 3.

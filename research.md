@@ -62,7 +62,6 @@ My research interests lie in the areas of ...
     <div class="papers">
       📄 <a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202406126" target="_blank">Antibiotic TMA (therapeutic methacrylic) comonomers: synergizing mechanical integrity with infection
 control in bone cement</a><br>
-      📄 <a href="https://doi.org/your-paper2" target="_blank">Paper Title</a>
     </div>
   </div>
 

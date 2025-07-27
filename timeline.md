@@ -3,7 +3,7 @@ layout: page
 title: Timeline
 ---
 
-<!-- Load timeline CSS inline -->
+<!-- Timeline CSS with logos -->
 <style>
   .timeline {
     position: relative;
@@ -73,6 +73,22 @@ title: Timeline
     margin-bottom: 0.5rem;
   }
 
+  .logo {
+    position: absolute;
+    top: 1rem;
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+  }
+
+  .timeline-entry.left .logo {
+    right: -70px;
+  }
+
+  .timeline-entry.right .logo {
+    left: -70px;
+  }
+
   @media screen and (max-width: 768px) {
     .timeline::after {
       left: 20px;
@@ -94,51 +110,59 @@ title: Timeline
     .timeline-entry::after {
       left: 18px;
     }
+
+    .logo {
+      display: none;
+    }
   }
 </style>
-
 
 <div class="timeline">
 
   <div class="timeline-entry left">
+    <img src="/assets/images/bone.png" alt="IIT BHU Logo" class="logo" />
     <div class="content">
-       <div class="date">2013 - 2018</div>
+      <div class="date">2013 - 2018</div>
       <h3>Undergraduate and Postgraduate - IIT(BHU) Varanasi</h3>
       <p>Integrated Dual Degree, Pharmacy</p>
-            <p>Design of polymeric drug delivery systems</p>
+      <p>Design of polymeric drug delivery systems</p>
     </div>
   </div>
 
-   <div class="timeline-entry right">
+  <div class="timeline-entry right">
+    <img src="/assets/images/leipzig_logo.png" alt="Leipzig Logo" class="logo" />
     <div class="content">
       <div class="date">2017</div>
-      <h3>Research Intern- University of Leipzig, Germany</h3>
+      <h3>Research Intern - University of Leipzig, Germany</h3>
       <p>DAAD - Working Internship in Science and Engineering (WISE)</p>
     </div>
   </div>
 
   <div class="timeline-entry left">
+    <img src="/assets/images/ntu_logo.png" alt="NTU Logo" class="logo" />
     <div class="content">
       <div class="date">2018 – 2022</div>
-      <h3>Doctor of Philosphy - NTU Singapore</h3>
+      <h3>Doctor of Philosophy - NTU Singapore</h3>
       <p>Adhesive platforms for localized disease management</p>
     </div>
   </div>
 
   <div class="timeline-entry right">
+    <img src="/assets/images/cmu_logo.png" alt="CMU Logo" class="logo" />
     <div class="content">
       <div class="date">Nov 2022 - Aug 2025</div>
       <h3>Postdoctoral Research Associate - Carnegie Mellon University, USA</h3>
       <p>Biomaterials design using synthetic tools for bone and cartilage regeneration</p>
     </div>
   </div>
-  
+
   <div class="timeline-entry left">
+    <img src="/assets/images/iisc_logo.png" alt="IISc Logo" class="logo" />
     <div class="content">
       <div class="date">September 2025</div>
       <h3>Incoming Inspire Faculty Fellow - Indian Institute of Science, Bangalore, India</h3>
       <p>Cell-instructive biomaterials and antimicrobial coatings</p>
     </div>
   </div>
-  
+
 </div>

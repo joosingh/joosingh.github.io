@@ -22,7 +22,7 @@ title: Teaching
   margin-bottom: 15px;
 }
 #teaching-mentorship li {
-  font-size: 12px; /* Adjust this value as needed */
+  font-size: 10px; /* Adjust this value as needed */
   line-height: 1.5; /* Improves readability */
 }
 </style>

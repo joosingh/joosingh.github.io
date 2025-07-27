@@ -50,7 +50,7 @@ My research interests lie in the areas of ...
 
   <div class="research-item">
     <img src="/assets/images/bone.png" alt="Work1">
-    <h4>Bone Regeneration and Prosthetic Infections Prevention</h4>
+    <h5>Bone Regeneration and Prosthetic Infections Prevention</h5>
     <p> <ul style="font-size:12px; line-height:1.6; padding-left: 20px;"> Bone regeneration and prevention of prosthetic joint infections remain major clinical challenges, particularly in cases of osteomyelitis and revision surgeries. Conventional PMMA bone cements lack bioactivity and antimicrobial properties, leading to poor bone integration and infection risks.  </ul> </p>
     <p style="font-size:12px; line-height:1.6;">
     <strong>My Approach:</strong>

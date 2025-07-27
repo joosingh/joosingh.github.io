@@ -50,12 +50,18 @@ My research interests lie in the areas of ...
 
   <div class="research-item">
     <img src="/assets/images/bone.png" alt="Work1">
-    <h3>Area 1</h3>
-    <p>
-      Explanation 1.
-    </p>
+    <h3>Bone Regeneration and Prosthetic Infections Prevention</h3>
+    <p> Bone regeneration and prevention of prosthetic joint infections remain major clinical challenges, particularly in cases of osteomyelitis and revision surgeries. Conventional PMMA bone cements lack bioactivity and antimicrobial properties, leading to poor bone integration and infection risks.</p>
+    <p style="font-size:12px; line-height:1.6;">
+    <strong>My Approach:</strong>
+  </p>
+  <ul style="font-size:12px; line-height:1.6; padding-left: 20px;">
+    <li><strong>Enhancing bone regeneration</strong> through bioactive 2D nanomaterials (aminoclays, black phosphorus) incorporated into PMMA bone cements to improve osteoconductivity.</li>
+    <li><strong>Preventing infections</strong> by integrating antibiotic-functionalized co-monomers and localized drug delivery strategies for long-term antimicrobial activity without compromising mechanical strength.</li>
+  </ul>
     <div class="papers">
-      📄 <a href="https://doi.org/your-paper1" target="_blank">Paper title</a><br>
+      📄 <a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202406126" target="_blank">Antibiotic TMA (therapeutic methacrylic) comonomers: synergizing mechanical integrity with infection
+control in bone cement</a><br>
       📄 <a href="https://doi.org/your-paper2" target="_blank">Paper Title</a>
     </div>
   </div>

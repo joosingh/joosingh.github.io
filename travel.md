@@ -53,7 +53,6 @@ title: Travel
   display: flex;
   flex-wrap: wrap;
 }
-
 .photo-card {
   width: 260px;
   border-radius: 8px;
@@ -66,6 +65,7 @@ title: Travel
   width: 100%;
   display: block;
 }
+
 .photo-card:hover {
   transform: scale(1.03);
 }

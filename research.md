@@ -61,7 +61,7 @@ My research interests lie in the areas of ...
   </div>
 
   <div class="research-item">
-    <img src="/assets/images/profile.JPG" alt="Work2">
+    <img src="/assets/images/antimicrobial.png" alt="Work2">
     <h3>Area 2</h3>
     <p>
       explanation 2.
@@ -71,11 +71,23 @@ My research interests lie in the areas of ...
     </div>
   </div>
 
-div class="research-item">
+  <div class="research-item">
     <img src="/assets/images/dummy3.jpg" alt="Work3">
     <h3>Area 3</h3>
     <p>
       Explanation 3.
+    </p>
+    <div class="papers">
+      📄 <a href="https://doi.org/your-paper1" target="_blank">Paper title</a><br>
+      📄 <a href="https://doi.org/your-paper2" target="_blank">Paper Title</a>
+    </div>
+  </div>
+
+  <div class="research-item">
+    <img src="/assets/images/dummy4.jpg" alt="Work4">
+    <h3>Area 4</h3>
+    <p>
+      Explanation 4.
     </p>
     <div class="papers">
       📄 <a href="https://doi.org/your-paper1" target="_blank">Paper title</a><br>

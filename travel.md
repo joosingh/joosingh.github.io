@@ -88,7 +88,7 @@ title: Travel
 
 <!-- Country Photo Sections -->
 
-<div id="usa" class="country-photos">
+<div id="USA" class="country-photos">
   <div class="photo-card"><img src="/assets/travels/USA/nyc1.jpeg" alt="New York1"></div>
   <div class="photo-card"><img src="/assets/travels/USA/nyc2.jpeg" alt="New York2"></div>
 </div>

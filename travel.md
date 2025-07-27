@@ -121,11 +121,11 @@ title: Travel
 
 <!-- Country Photos -->
 <div id="USA" class="country-photos">
-  <div class="photo-card" onclick="openLightbox('/assets/travels/usa/nyc.jpg')">
+  <div class="photo-card" onclick="openLightbox('/assets/travels/USA/nyc1.jpeg')">
     <img src="/assets/travels/USA/nyc1.jpeg" alt="NYC1">
     <div class="caption">caption1</div>
   </div>
-  <div class="photo-card" onclick="openLightbox('/assets/travels/usa/yosemite.jpg')">
+  <div class="photo-card" onclick="openLightbox('/assets/travels/USA/nyc2.jpeg')">
     <img src="/assets/travels/USA/nyc2.jpeg" alt="NYC2">
     <div class="caption">caption2</div>
   </div>

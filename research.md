@@ -5,7 +5,7 @@ title: Research
 
 # Research
 
-My current research efforts at CMU focus on the following research problems:
+My research primarily focuses on engineering biomaterials for localized disease management across various applications. Currently at CMU I employ synthetic tools to design a variety of materials such as soft hydrogels to robust bone cements spanning a range of biomedical applications. My current research efforts at CMU focus on the following research problems:
 
 ---
 

@@ -5,7 +5,7 @@ title: Research
 
 # Research
 
-My research interests lie in the areas of ...
+My current research efforts at CMU focus on the following research problems:
 
 ---
 

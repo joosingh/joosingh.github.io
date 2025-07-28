@@ -84,28 +84,36 @@ sulfate and synthetic polypeptides for cartilage tissue engineering</a><br>
 
 
 
-  <div class="research-item">
-    <img src="/assets/images/dummy3.jpg" alt="Work3">
-    <h3>Area 3</h3>
-    <p>
-      Explanation 3.
-    </p>
+    <div class="research-item">
+    <img src="/assets/images/antimicrobial.png" alt="Work3">
+    <h5>Synthetic Polypeptides as Antimicrobial Coatings</h5>
+    <p> <ul style="font-size:12px; line-height:1.6; padding-left: 20px;"> Microbial adhesion and biofilm formation on surfaces cause infections in healthcare and contamination in food and industrial systems. Existing solutions—antibiotics, disinfectants, and passive coatings—offer only short-term protection and face issues like resistance, toxicity, and performance loss. There is a critical need for durable, biocompatible antimicrobial coatings that provide long-lasting protection across applications. </ul> </p>
+    <p style="font-size:12px; line-height:1.6;">
+    <strong>My Approach:</strong>
+  </p>
+  <ul style="font-size:12px; line-height:1.6; padding-left: 20px;">
+    I focus on developing advanced surface and material solutions to reduce microbial adhesion and contamination across critical sectors, including healthcare, food processing, and industrial systems. The goal is to create durable, biocompatible, and scalable coatings that:
+    <li><strong>Minimize microbial colonization </strong> to lower infection and contamination risks.</li>
+    <li><strong>Maintain long-term surface functionality </strong> under dynamic environmental conditions.</li>
+     <li><strong>Enable safe, application-specific customization </strong> without compromising structural or operational integrity.</li>
+  </ul>
+    
+  </div>
+  
+
+    <div class="research-item">
+    <img src="/assets/images/cartilages.png" alt="Work4">
+    <h5>Cartilage Mimic Hydrogels for Cartilage Regeneration</h5>
+    <p> <ul style="font-size:12px; line-height:1.6; padding-left: 20px;"> Cartilage has minimal regenerative capacity, and in osteoarthritis, progressive cartilage degradation leads to bone-on-bone contact, chronic inflammation, and joint degeneration. Existing treatment options fail to restore native cartilage structure and mechanics. </ul> </p>
+    <p style="font-size:12px; line-height:1.6;">
+    <strong>My Approach:</strong>
+  </p>
+  <ul style="font-size:12px; line-height:1.6; padding-left: 20px;">
+    <li><strong>Designing injectable hydrogels</strong> composed of Chondroitin Sulfate and synthetic polypeptides that mimic the native cartilage not only in terms of chemical composition but mechanical properties.</li>
+    <li><strong>Incorporating chemical cues</strong> in form of short peptides or small molecule drugs to promote chondrogenesis at cartilage defect site.</li>
+  </ul>
     <div class="papers">
-      📄 <a href="https://doi.org/your-paper1" target="_blank">Paper title</a><br>
-      📄 <a href="https://doi.org/your-paper2" target="_blank">Paper Title</a>
+      📄 <a href="https://pubs.rsc.org/en/content/articlelanding/2025/bm/d5bm00296f" target="_blank">Biomimetic double network hydrogels of chondroitin
+sulfate and synthetic polypeptides for cartilage tissue engineering</a><br>
     </div>
   </div>
-
-  <div class="research-item">
-    <img src="/assets/images/dummy4.jpg" alt="Work4">
-    <h3>Area 4</h3>
-    <p>
-      Explanation 4.
-    </p>
-    <div class="papers">
-      📄 <a href="https://doi.org/your-paper1" target="_blank">Paper title</a><br>
-      📄 <a href="https://doi.org/your-paper2" target="_blank">Paper Title</a>
-    </div>
-  </div>
-
-</div>

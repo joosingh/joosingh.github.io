@@ -102,8 +102,8 @@ sulfate and synthetic polypeptides for cartilage tissue engineering</a><br>
   
 
     <div class="research-item">
-    <img src="/assets/images/cartilages.png" alt="Work4">
-    <h5>Cartilage Mimic Hydrogels for Cartilage Regeneration</h5>
+    <img src="/assets/images/sensor.png" alt="Work4">
+    <h5>Electroanalytical Platform for Mammalian Culture Health Assessment</h5>
     <p> <ul style="font-size:12px; line-height:1.6; padding-left: 20px;"> Cartilage has minimal regenerative capacity, and in osteoarthritis, progressive cartilage degradation leads to bone-on-bone contact, chronic inflammation, and joint degeneration. Existing treatment options fail to restore native cartilage structure and mechanics. </ul> </p>
     <p style="font-size:12px; line-height:1.6;">
     <strong>My Approach:</strong>
@@ -112,8 +112,5 @@ sulfate and synthetic polypeptides for cartilage tissue engineering</a><br>
     <li><strong>Designing injectable hydrogels</strong> composed of Chondroitin Sulfate and synthetic polypeptides that mimic the native cartilage not only in terms of chemical composition but mechanical properties.</li>
     <li><strong>Incorporating chemical cues</strong> in form of short peptides or small molecule drugs to promote chondrogenesis at cartilage defect site.</li>
   </ul>
-    <div class="papers">
-      📄 <a href="https://pubs.rsc.org/en/content/articlelanding/2025/bm/d5bm00296f" target="_blank">Biomimetic double network hydrogels of chondroitin
-sulfate and synthetic polypeptides for cartilage tissue engineering</a><br>
-    </div>
+
   </div>

@@ -68,7 +68,6 @@ I am teaching/have taught following courses:
   </ul>
 
   <p><a href="#" target="_blank">Certified</a> as Teaching Assistant by Teaching, Learning and Pedagogy Dept, NTU Singapore <span style="float:right;">2019</span></p>
-</section>
 
 
 

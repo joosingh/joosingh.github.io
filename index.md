@@ -4,9 +4,7 @@ title: "About me"
 ---
 
 <style>
-  body {
-    font-family: 'Segoe UI', sans-serif;
-  }
+
   .section {
     max-width: 850px;
     margin: auto;
@@ -27,7 +25,7 @@ title: "About me"
   </p>
  
    <p class="highlight-text">
-    You can learn more about our ongoing projects and research directions on the Research Page.-
+    You can learn more about our ongoing projects and research directions on the Research Page.
   </p>
  
 </div>

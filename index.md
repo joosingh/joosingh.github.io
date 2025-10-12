@@ -22,4 +22,3 @@ title: "About me"
     You can learn more about our ongoing projects and research directions on the Research Page.
   </p>
  
-</div>

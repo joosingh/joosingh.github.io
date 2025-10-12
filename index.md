@@ -3,7 +3,6 @@ layout: home
 title: "About me"
 ---
 
-<div style="text-align:center; padding: 2rem;">
 <style>
   body {
     font-family: 'Segoe UI', sans-serif;
@@ -18,9 +17,6 @@ title: "About me"
   <img src="/assets/images/profile.JPG" alt="Harsh Kasyap" style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
   <h1>Juhi Singh</h1>
 
-
-
-  <h1>Juhi Singh</h1>
 
   <p class="highlight-text">
     I am a DST INSPIRE Faculty in the Department of Bioengineering at the Indian Institute of Science (IISc), Bengaluru. My research group focuses on engineering biomaterials for localized disease management, with applications spanning oral infections, cartilage defects, and prosthetic joint infections. We work with a diverse range of materials, from soft hydrogels to mechanically robust bone cements tailored to address specific clinical challenges. 

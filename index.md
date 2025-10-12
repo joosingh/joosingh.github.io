@@ -3,13 +3,7 @@ layout: home
 title: "About me"
 ---
 
-<style>
 
-  .section {
-    max-width: 850px;
-    margin: auto;
-    padding: 2rem 1rem;
-  }
   
   <!-- Profile Photo -->
   <img src="/assets/images/profile.JPG" alt="Harsh Kasyap" style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 10px rgba(0,0,0,0.2);">

@@ -160,7 +160,7 @@ title: Timeline
     <img src="/assets/images/IISc.png" alt="IISc Logo" class="logo" />
     <div class="content">
       <div class="date">September 2025</div>
-      <h3>Incoming Inspire Faculty Fellow - Indian Institute of Science, Bangalore, India</h3>
+      <h3>DST Inspire Faculty - Indian Institute of Science, Bengaluru, India</h3>
       <p>Cell-instructive biomaterials and antimicrobial coatings</p>
     </div>
   </div>
